@@ -1,0 +1,26 @@
+header {
+  & nav {
+    & ul {
+      @include media-large {
+        display: block;
+      }
+    }
+    & li {
+      @include media-large {
+        float: right;
+      }
+    }
+  }
+}
+
+.nav-a-propos-margin {
+  @include media-large {
+    margin-left: 40px;
+  }
+}
+
+.case {
+  @include media-large {
+    text-transform: capitalize;
+  }
+}

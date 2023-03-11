@@ -1,0 +1,30 @@
+header {
+  padding: 1rem 0 0.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  & nav {
+    width: 90%;
+    color: $primary-color;
+    & ul {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      margin: 0;
+      list-style: none;
+      width: 100%;
+    }
+  }
+  & img {
+    display: flex;
+    justify-content: flex-start;
+    width: 145px;
+  }
+}
+.nav-accueil-margin {
+  margin-left: 30px;
+}
+
+.case {
+    text-transform: uppercase;
+}

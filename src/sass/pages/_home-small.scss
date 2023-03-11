@@ -1,0 +1,11 @@
+#locations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.highlight-link {
+    text-decoration: underline;
+}

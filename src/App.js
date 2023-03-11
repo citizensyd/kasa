@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-import APropos from "./Components/APropos";
+import APropos from "./pages/APropos";
 import FicheLogement from "./Components/FicheLogement";
 import Home from "./Components/Home";
 import NotFound from "./Components/NotFound";

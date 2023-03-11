@@ -1,0 +1,53 @@
+.header-sheet {
+    @include media-large {
+      flex-direction: row;
+    }
+  }
+  
+  .la-location {
+    @include media-large {
+      width: 55%;
+      margin-top: 1rem;
+    }
+  }
+  
+  .localisation-location {
+    @include media-large{
+      margin: 0.2em 0 1em 0;
+    }
+  }
+  
+  .description-equipments {
+    @include media-large {
+      flex-direction: row;
+    }
+  }
+  
+  .description {
+    @include media-large {
+      width: 47%;
+    }
+  }
+  
+  .equipments {
+    @include media-large {
+      width: 47%;
+    }
+  }
+  
+  .host-rating-location {
+    @include media-large {
+      width: 45%;
+      flex-direction: column-reverse;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-top: 0.8rem;
+      padding-bottom: 10px;
+    }
+  }
+  
+  .rating-location img {
+    @include media-large {
+      width: 30px;
+    }
+  }  

@@ -1,0 +1,22 @@
+.card {
+  display: flex;
+  position: relative;
+  margin: 20px 0 0 0;
+  justify-content: flex-start;
+  align-content: space-around;
+  cursor: pointer;
+  width: 100%;
+  background-image: $background-gradient;
+  border-radius: 5px;
+  & p {
+    position: absolute;
+    align-self: flex-end;
+    width: 50%;
+    margin: 0 0 10px 10px;
+  }
+  & img {
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+}

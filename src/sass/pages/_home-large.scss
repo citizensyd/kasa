@@ -1,0 +1,7 @@
+#locations {
+    @include media-large {
+        padding: 1rem;
+        background-color: $background-location;
+        border-radius: 25px;
+    }
+}

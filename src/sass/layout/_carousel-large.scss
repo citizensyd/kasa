@@ -1,0 +1,28 @@
+.carousel-container {
+    @include media-large {
+      height: 415px;
+    }
+  }
+  
+  .carousel-slide {
+    @include media-large {
+      height: 415px;
+    }
+  }
+
+  #prevBtn {
+    & img {
+      @include media-large {
+        width: 30px;
+      }
+    }
+  }
+  
+  #nextBtn {
+    & img {
+      @include media-large {
+        width: 30px;
+      }
+    }
+  }
+  

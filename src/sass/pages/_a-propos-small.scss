@@ -1,0 +1,14 @@
+.a-propos-main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    @include media-large {
+        width: 85%;
+    }    
+    & h3 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+}

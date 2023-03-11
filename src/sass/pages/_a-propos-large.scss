@@ -1,0 +1,5 @@
+.a-propos-main {
+    @include media-large {
+        width: 85%;
+    }    
+}

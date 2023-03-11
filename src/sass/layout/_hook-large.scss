@@ -1,0 +1,15 @@
+.hook {
+  @include media-large {
+    height: 150px;
+  }
+  & img {
+    @include media-large {
+      height: 150px;
+    }
+  }
+  & p {
+    @include media-large {
+      justify-content: center;
+    }
+  }
+}
