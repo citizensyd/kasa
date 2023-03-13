@@ -1,12 +1,9 @@
 import React from "react";
-import styles from "./APropos.module.css";
-import Layout from "./Layout";
+import Layout from "../Components/Layout";
 
 const APropos = props => {
     return(
-        <Layout>
-
-        </Layout>
+<Layout></Layout>
     );
 }
 

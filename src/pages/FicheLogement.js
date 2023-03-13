@@ -1,10 +1,9 @@
 import React from "react";
-import styles from "./FicheLogement.module.css"
-import Layout from "./Layout";
+import Layout from "../Components/Layout";
 
 const FicheLogement = props => {
 return (
-    <Layout></Layout>
+<Layout></Layout>
 );
 
 }

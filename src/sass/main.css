@@ -431,6 +431,10 @@ h1 {
   margin: 0;
 }
 
+title {
+  font-family: "montserrat", sans-serif;
+}
+
 header {
   padding: 1rem 0 0.5rem 0;
   display: flex;

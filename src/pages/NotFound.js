@@ -1,9 +1,10 @@
 import React from "react";
-import Layout from "./Layout";
-import styles from "./NotFound.module.css";
+import Layout from "../Components/Layout";
 
-const NotFound = (propos) => {
-  return <Layout></Layout>;
+const NotFound = (props) => {
+  return (
+<Layout></Layout>
+  )
 };
 
 export default NotFound;
