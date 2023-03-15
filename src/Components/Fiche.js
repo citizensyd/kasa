@@ -6,7 +6,6 @@ import Equipments from "./Equipments";
 import TagsLocation from "./TagsLocation";
 
 function Fiche({ oneLocation }) {
-  console.log(oneLocation);
   return (
     <section className="location-sheet">
       <div className="header-sheet">
@@ -17,7 +16,7 @@ function Fiche({ oneLocation }) {
             </h1>
           </div>
           <div className="localisation-location">
-            <p class="font-weight-500 font-size-14px font-color-primary">
+            <p className="font-weight-500 font-size-14px font-color-primary">
               {oneLocation.location}
             </p>
           </div>
