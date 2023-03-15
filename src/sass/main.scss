@@ -1,15 +1,15 @@
-@import "./base/normalize";
+/* @import "./base/normalize"; */
 @import "./base/base";
 @import "./utils/variables-color";
-@import "./utils/variables-font";
 @import "./utils/variables-mediaqueries";
+@import "./utils/variables-font";
 @import "./layout/header-small";
 @import "./layout/header-large";
 @import "./layout/carousel-small";
 @import "./layout/carousel-large";
 @import "./layout/body-page";
-@import "./layout/footer-small";
 @import "./layout/footer-large";
+@import "./layout/footer-small";
 @import "./layout/hook-small";
 @import "./layout/hook-large";
 @import "./components/card-grey-small";
@@ -19,7 +19,8 @@
 @import "./components/card-large";
 @import "./pages/home-small";
 @import "./pages/home-large";
-@import "./pages/error";
+@import "./pages/error-small";
+@import "./pages/error-large";
 @import "./pages/fiche-small";
 @import "./pages/fiche-large";
 @import "./pages/a-propos-small";

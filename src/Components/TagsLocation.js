@@ -6,7 +6,7 @@ function TagsLocation({ oneLocation }) {
   const tags = listOfTags.map((tag, index) => (
     <p
       key={index}
-      className="button button-tags font-weight-500 font-size-10px font-color-principal"
+      className="button button-tags font-weight-small-500 font-size-small-10px font-size-large-14px font-color-principal"
     >
       {tag}
     </p>
