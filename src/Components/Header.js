@@ -14,7 +14,7 @@ const Header = (props) => {
             </a>
           </li>
           <li className="font-weight-500 font-size-12px font-color-primary nav-accueil-margin">
-            <a className="highlight-link case" href="home">
+            <a className="highlight-link case" href="/">
               accueil
             </a>
           </li>
