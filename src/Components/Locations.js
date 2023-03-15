@@ -1,18 +1,35 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const Locations = ({ theLocations }) => {
-
-  const cards = theLocations.map(location => (
-    <div className="card" data-id={location.id}>
+  const cards = theLocations.map((location) => (
+    <div className="card" key={location.id} data-id={location.id}>
       <img src={location.cover} alt={location.title} />
-      <p className="font-weight-500 font-size-18px font-color-principal">{location.title}</p>
+      <p className="font-weight-500 font-size-18px font-color-principal">
+        {location.title}
+      </p>
     </div>
   ));
 
-  return <section id="locations">
+  useEffect(() => {
+    function redirectToPageWithId() {
+      const parent = document.getElementById("locations");
+      const el = parent.querySelectorAll(".card");
+      console.log(el);
+      el.forEach((item) => {
+        item.addEventListener("click", () => {
+          const div = item.closest("div");
+          const pageUrl = "fiche-logement";
+          const id = div.dataset.id;
+          const url = pageUrl + "?id=" + id;
+          window.location.href = url;
+        });
+      });
+    }
 
-{cards}
-  </section>;
+    redirectToPageWithId();
+  }, [theLocations]);
+
+  return <section id="locations">{cards}</section>;
 };
 
 export default Locations;

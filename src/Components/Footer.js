@@ -5,7 +5,7 @@ const Footer = (props) => {
   return (
     <footer>
       <img src={LogoNoir} alt="logo de Kasa en blanc sur fond noir" />
-      <p class="font-weight-500 font-size-12px font-color-principal">
+      <p className="font-weight-500 font-size-12px font-color-principal">
         © 2020 Kaza. All rights reserved
       </p>
     </footer>
