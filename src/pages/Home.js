@@ -34,13 +34,13 @@ const Home = () => {
   return (
     <React.Fragment>
       <Layout>
-        <Header></Header>
+        <Header />
         <Main>
-          <Hook></Hook>
+          <Hook />
           <Locations theLocations={theLocations}></Locations>
         </Main>
       </Layout>
-      <Footer></Footer>
+      <Footer />
     </React.Fragment>
   );
 };

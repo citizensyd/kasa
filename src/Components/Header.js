@@ -9,12 +9,12 @@ const Header = (props) => {
       <nav>
         <ul>
           <li className="font-weight-500 font-size-12px font-color-primary nav-a-propos-margin">
-            <a className="case" href="a-propos.html">
+            <a className="case" href="a-propos">
               a propos
             </a>
           </li>
           <li className="font-weight-500 font-size-12px font-color-primary nav-accueil-margin">
-            <a className="highlight-link case" href="home.html">
+            <a className="highlight-link case" href="home">
               accueil
             </a>
           </li>
