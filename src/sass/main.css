@@ -1,72 +1,72 @@
-.font-size-10px {
+.font-size-small-10px {
   font-size: 10px;
 }
 
-.font-size-12px {
+.font-size-small-12px {
   font-size: 12px;
 }
 
-.font-size-13px {
+.font-size-small-13px {
   font-size: 13px;
 }
 
-.font-size-14px {
+.font-size-small-14px {
   font-size: 14px;
 }
 
-.font-size-18px {
+.font-size-small-18px {
   font-size: 18px;
 }
 
-.font-size-24px {
+.font-size-small-24px {
   font-size: 24px;
 }
 
-.font-size-32px {
+.font-size-small-32px {
   font-size: 32px;
 }
 
-.font-size-36px {
+.font-size-small-36px {
   font-size: 36px;
 }
 
-.font-size-48px {
+.font-size-small-48px {
   font-size: 48px;
 }
 
-.font-size-96px {
+.font-size-small-96px {
   font-size: 96px;
 }
 
-.font-size-288px {
+.font-size-small-288px {
   font-size: 288px;
 }
 
-.font-weight-100 {
+.font-weight-small-100 {
   font-weight: 100;
 }
 
-.font-weight-200 {
+.font-weight-small-200 {
   font-weight: 200;
 }
 
-.font-weight-300 {
+.font-weight-small-300 {
   font-weight: 300;
 }
 
-.font-weight-400 {
+.font-weight-small-400 {
   font-weight: 400;
 }
 
-.font-weight-500 {
+.font-weight-small-500 {
   font-weight: 500;
 }
 
-.font-weight-600 {
+.font-weight-small-600 {
   font-weight: 600;
 }
 
-.font-weight-700 {
+.font-weight-small-700 {
   font-weight: 700;
 }
 
@@ -471,10 +471,118 @@ header img {
   header nav ul {
     display: block;
   }
+  header nav ul .font-weight-large-100 {
+    font-weight: 100;
+  }
+  header nav ul .font-weight-large-200 {
+    font-weight: 200;
+  }
+  header nav ul .font-weight-large-300 {
+    font-weight: 300;
+  }
+  header nav ul .font-weight-large-400 {
+    font-weight: 400;
+  }
+  header nav ul .font-weight-large-500 {
+    font-weight: 500;
+  }
+  header nav ul .font-weight-large-600 {
+    font-weight: 600;
+  }
+  header nav ul .font-weight-large-700 {
+    font-weight: 700;
+  }
+  header nav ul .font-size-large-10px {
+    font-size: 10px;
+  }
+  header nav ul .font-size-large-12px {
+    font-size: 12px;
+  }
+  header nav ul .font-size-large-13px {
+    font-size: 13px;
+  }
+  header nav ul .font-size-large-14px {
+    font-size: 14px;
+  }
+  header nav ul .font-size-large-18px {
+    font-size: 18px;
+  }
+  header nav ul .font-size-large-24px {
+    font-size: 24px;
+  }
+  header nav ul .font-size-large-32px {
+    font-size: 32px;
+  }
+  header nav ul .font-size-large-36px {
+    font-size: 36px;
+  }
+  header nav ul .font-size-large-48px {
+    font-size: 48px;
+  }
+  header nav ul .font-size-large-96px {
+    font-size: 96px;
+  }
+  header nav ul .font-size-large-288px {
+    font-size: 288px;
+  }
 }
 @media only screen and (min-width: 480px) {
   header nav li {
     float: right;
+  }
+  header nav li .font-weight-large-100 {
+    font-weight: 100;
+  }
+  header nav li .font-weight-large-200 {
+    font-weight: 200;
+  }
+  header nav li .font-weight-large-300 {
+    font-weight: 300;
+  }
+  header nav li .font-weight-large-400 {
+    font-weight: 400;
+  }
+  header nav li .font-weight-large-500 {
+    font-weight: 500;
+  }
+  header nav li .font-weight-large-600 {
+    font-weight: 600;
+  }
+  header nav li .font-weight-large-700 {
+    font-weight: 700;
+  }
+  header nav li .font-size-large-10px {
+    font-size: 10px;
+  }
+  header nav li .font-size-large-12px {
+    font-size: 12px;
+  }
+  header nav li .font-size-large-13px {
+    font-size: 13px;
+  }
+  header nav li .font-size-large-14px {
+    font-size: 14px;
+  }
+  header nav li .font-size-large-18px {
+    font-size: 18px;
+  }
+  header nav li .font-size-large-24px {
+    font-size: 24px;
+  }
+  header nav li .font-size-large-32px {
+    font-size: 32px;
+  }
+  header nav li .font-size-large-36px {
+    font-size: 36px;
+  }
+  header nav li .font-size-large-48px {
+    font-size: 48px;
+  }
+  header nav li .font-size-large-96px {
+    font-size: 96px;
+  }
+  header nav li .font-size-large-288px {
+    font-size: 288px;
   }
 }
 
@@ -482,11 +590,119 @@ header img {
   .nav-a-propos-margin {
     margin-left: 40px;
   }
+  .nav-a-propos-margin .font-weight-large-100 {
+    font-weight: 100;
+  }
+  .nav-a-propos-margin .font-weight-large-200 {
+    font-weight: 200;
+  }
+  .nav-a-propos-margin .font-weight-large-300 {
+    font-weight: 300;
+  }
+  .nav-a-propos-margin .font-weight-large-400 {
+    font-weight: 400;
+  }
+  .nav-a-propos-margin .font-weight-large-500 {
+    font-weight: 500;
+  }
+  .nav-a-propos-margin .font-weight-large-600 {
+    font-weight: 600;
+  }
+  .nav-a-propos-margin .font-weight-large-700 {
+    font-weight: 700;
+  }
+  .nav-a-propos-margin .font-size-large-10px {
+    font-size: 10px;
+  }
+  .nav-a-propos-margin .font-size-large-12px {
+    font-size: 12px;
+  }
+  .nav-a-propos-margin .font-size-large-13px {
+    font-size: 13px;
+  }
+  .nav-a-propos-margin .font-size-large-14px {
+    font-size: 14px;
+  }
+  .nav-a-propos-margin .font-size-large-18px {
+    font-size: 18px;
+  }
+  .nav-a-propos-margin .font-size-large-24px {
+    font-size: 24px;
+  }
+  .nav-a-propos-margin .font-size-large-32px {
+    font-size: 32px;
+  }
+  .nav-a-propos-margin .font-size-large-36px {
+    font-size: 36px;
+  }
+  .nav-a-propos-margin .font-size-large-48px {
+    font-size: 48px;
+  }
+  .nav-a-propos-margin .font-size-large-96px {
+    font-size: 96px;
+  }
+  .nav-a-propos-margin .font-size-large-288px {
+    font-size: 288px;
+  }
 }
 
 @media only screen and (min-width: 480px) {
   .case {
     text-transform: capitalize;
+  }
+  .case .font-weight-large-100 {
+    font-weight: 100;
+  }
+  .case .font-weight-large-200 {
+    font-weight: 200;
+  }
+  .case .font-weight-large-300 {
+    font-weight: 300;
+  }
+  .case .font-weight-large-400 {
+    font-weight: 400;
+  }
+  .case .font-weight-large-500 {
+    font-weight: 500;
+  }
+  .case .font-weight-large-600 {
+    font-weight: 600;
+  }
+  .case .font-weight-large-700 {
+    font-weight: 700;
+  }
+  .case .font-size-large-10px {
+    font-size: 10px;
+  }
+  .case .font-size-large-12px {
+    font-size: 12px;
+  }
+  .case .font-size-large-13px {
+    font-size: 13px;
+  }
+  .case .font-size-large-14px {
+    font-size: 14px;
+  }
+  .case .font-size-large-18px {
+    font-size: 18px;
+  }
+  .case .font-size-large-24px {
+    font-size: 24px;
+  }
+  .case .font-size-large-32px {
+    font-size: 32px;
+  }
+  .case .font-size-large-36px {
+    font-size: 36px;
+  }
+  .case .font-size-large-48px {
+    font-size: 48px;
+  }
+  .case .font-size-large-96px {
+    font-size: 96px;
+  }
+  .case .font-size-large-288px {
+    font-size: 288px;
   }
 }
 
@@ -546,11 +762,119 @@ button {
   .carousel-container {
     height: 415px;
   }
+  .carousel-container .font-weight-large-100 {
+    font-weight: 100;
+  }
+  .carousel-container .font-weight-large-200 {
+    font-weight: 200;
+  }
+  .carousel-container .font-weight-large-300 {
+    font-weight: 300;
+  }
+  .carousel-container .font-weight-large-400 {
+    font-weight: 400;
+  }
+  .carousel-container .font-weight-large-500 {
+    font-weight: 500;
+  }
+  .carousel-container .font-weight-large-600 {
+    font-weight: 600;
+  }
+  .carousel-container .font-weight-large-700 {
+    font-weight: 700;
+  }
+  .carousel-container .font-size-large-10px {
+    font-size: 10px;
+  }
+  .carousel-container .font-size-large-12px {
+    font-size: 12px;
+  }
+  .carousel-container .font-size-large-13px {
+    font-size: 13px;
+  }
+  .carousel-container .font-size-large-14px {
+    font-size: 14px;
+  }
+  .carousel-container .font-size-large-18px {
+    font-size: 18px;
+  }
+  .carousel-container .font-size-large-24px {
+    font-size: 24px;
+  }
+  .carousel-container .font-size-large-32px {
+    font-size: 32px;
+  }
+  .carousel-container .font-size-large-36px {
+    font-size: 36px;
+  }
+  .carousel-container .font-size-large-48px {
+    font-size: 48px;
+  }
+  .carousel-container .font-size-large-96px {
+    font-size: 96px;
+  }
+  .carousel-container .font-size-large-288px {
+    font-size: 288px;
+  }
 }
 
 @media only screen and (min-width: 480px) {
   .carousel-slide {
     height: 415px;
+  }
+  .carousel-slide .font-weight-large-100 {
+    font-weight: 100;
+  }
+  .carousel-slide .font-weight-large-200 {
+    font-weight: 200;
+  }
+  .carousel-slide .font-weight-large-300 {
+    font-weight: 300;
+  }
+  .carousel-slide .font-weight-large-400 {
+    font-weight: 400;
+  }
+  .carousel-slide .font-weight-large-500 {
+    font-weight: 500;
+  }
+  .carousel-slide .font-weight-large-600 {
+    font-weight: 600;
+  }
+  .carousel-slide .font-weight-large-700 {
+    font-weight: 700;
+  }
+  .carousel-slide .font-size-large-10px {
+    font-size: 10px;
+  }
+  .carousel-slide .font-size-large-12px {
+    font-size: 12px;
+  }
+  .carousel-slide .font-size-large-13px {
+    font-size: 13px;
+  }
+  .carousel-slide .font-size-large-14px {
+    font-size: 14px;
+  }
+  .carousel-slide .font-size-large-18px {
+    font-size: 18px;
+  }
+  .carousel-slide .font-size-large-24px {
+    font-size: 24px;
+  }
+  .carousel-slide .font-size-large-32px {
+    font-size: 32px;
+  }
+  .carousel-slide .font-size-large-36px {
+    font-size: 36px;
+  }
+  .carousel-slide .font-size-large-48px {
+    font-size: 48px;
+  }
+  .carousel-slide .font-size-large-96px {
+    font-size: 96px;
+  }
+  .carousel-slide .font-size-large-288px {
+    font-size: 288px;
   }
 }
 
@@ -558,11 +882,119 @@ button {
   #prevBtn img {
     width: 30px;
   }
+  #prevBtn img .font-weight-large-100 {
+    font-weight: 100;
+  }
+  #prevBtn img .font-weight-large-200 {
+    font-weight: 200;
+  }
+  #prevBtn img .font-weight-large-300 {
+    font-weight: 300;
+  }
+  #prevBtn img .font-weight-large-400 {
+    font-weight: 400;
+  }
+  #prevBtn img .font-weight-large-500 {
+    font-weight: 500;
+  }
+  #prevBtn img .font-weight-large-600 {
+    font-weight: 600;
+  }
+  #prevBtn img .font-weight-large-700 {
+    font-weight: 700;
+  }
+  #prevBtn img .font-size-large-10px {
+    font-size: 10px;
+  }
+  #prevBtn img .font-size-large-12px {
+    font-size: 12px;
+  }
+  #prevBtn img .font-size-large-13px {
+    font-size: 13px;
+  }
+  #prevBtn img .font-size-large-14px {
+    font-size: 14px;
+  }
+  #prevBtn img .font-size-large-18px {
+    font-size: 18px;
+  }
+  #prevBtn img .font-size-large-24px {
+    font-size: 24px;
+  }
+  #prevBtn img .font-size-large-32px {
+    font-size: 32px;
+  }
+  #prevBtn img .font-size-large-36px {
+    font-size: 36px;
+  }
+  #prevBtn img .font-size-large-48px {
+    font-size: 48px;
+  }
+  #prevBtn img .font-size-large-96px {
+    font-size: 96px;
+  }
+  #prevBtn img .font-size-large-288px {
+    font-size: 288px;
+  }
 }
 
 @media only screen and (min-width: 480px) {
   #nextBtn img {
     width: 30px;
+  }
+  #nextBtn img .font-weight-large-100 {
+    font-weight: 100;
+  }
+  #nextBtn img .font-weight-large-200 {
+    font-weight: 200;
+  }
+  #nextBtn img .font-weight-large-300 {
+    font-weight: 300;
+  }
+  #nextBtn img .font-weight-large-400 {
+    font-weight: 400;
+  }
+  #nextBtn img .font-weight-large-500 {
+    font-weight: 500;
+  }
+  #nextBtn img .font-weight-large-600 {
+    font-weight: 600;
+  }
+  #nextBtn img .font-weight-large-700 {
+    font-weight: 700;
+  }
+  #nextBtn img .font-size-large-10px {
+    font-size: 10px;
+  }
+  #nextBtn img .font-size-large-12px {
+    font-size: 12px;
+  }
+  #nextBtn img .font-size-large-13px {
+    font-size: 13px;
+  }
+  #nextBtn img .font-size-large-14px {
+    font-size: 14px;
+  }
+  #nextBtn img .font-size-large-18px {
+    font-size: 18px;
+  }
+  #nextBtn img .font-size-large-24px {
+    font-size: 24px;
+  }
+  #nextBtn img .font-size-large-32px {
+    font-size: 32px;
+  }
+  #nextBtn img .font-size-large-36px {
+    font-size: 36px;
+  }
+  #nextBtn img .font-size-large-48px {
+    font-size: 48px;
+  }
+  #nextBtn img .font-size-large-96px {
+    font-size: 96px;
+  }
+  #nextBtn img .font-size-large-288px {
+    font-size: 288px;
   }
 }
 
@@ -598,6 +1030,60 @@ footer img {
   .hook {
     height: 150px;
   }
+  .hook .font-weight-large-100 {
+    font-weight: 100;
+  }
+  .hook .font-weight-large-200 {
+    font-weight: 200;
+  }
+  .hook .font-weight-large-300 {
+    font-weight: 300;
+  }
+  .hook .font-weight-large-400 {
+    font-weight: 400;
+  }
+  .hook .font-weight-large-500 {
+    font-weight: 500;
+  }
+  .hook .font-weight-large-600 {
+    font-weight: 600;
+  }
+  .hook .font-weight-large-700 {
+    font-weight: 700;
+  }
+  .hook .font-size-large-10px {
+    font-size: 10px;
+  }
+  .hook .font-size-large-12px {
+    font-size: 12px;
+  }
+  .hook .font-size-large-13px {
+    font-size: 13px;
+  }
+  .hook .font-size-large-14px {
+    font-size: 14px;
+  }
+  .hook .font-size-large-18px {
+    font-size: 18px;
+  }
+  .hook .font-size-large-24px {
+    font-size: 24px;
+  }
+  .hook .font-size-large-32px {
+    font-size: 32px;
+  }
+  .hook .font-size-large-36px {
+    font-size: 36px;
+  }
+  .hook .font-size-large-48px {
+    font-size: 48px;
+  }
+  .hook .font-size-large-96px {
+    font-size: 96px;
+  }
+  .hook .font-size-large-288px {
+    font-size: 288px;
+  }
 }
 .hook img {
   border-radius: 8px;
@@ -609,6 +1095,60 @@ footer img {
 @media only screen and (min-width: 480px) {
   .hook img {
     height: 150px;
+  }
+  .hook img .font-weight-large-100 {
+    font-weight: 100;
+  }
+  .hook img .font-weight-large-200 {
+    font-weight: 200;
+  }
+  .hook img .font-weight-large-300 {
+    font-weight: 300;
+  }
+  .hook img .font-weight-large-400 {
+    font-weight: 400;
+  }
+  .hook img .font-weight-large-500 {
+    font-weight: 500;
+  }
+  .hook img .font-weight-large-600 {
+    font-weight: 600;
+  }
+  .hook img .font-weight-large-700 {
+    font-weight: 700;
+  }
+  .hook img .font-size-large-10px {
+    font-size: 10px;
+  }
+  .hook img .font-size-large-12px {
+    font-size: 12px;
+  }
+  .hook img .font-size-large-13px {
+    font-size: 13px;
+  }
+  .hook img .font-size-large-14px {
+    font-size: 14px;
+  }
+  .hook img .font-size-large-18px {
+    font-size: 18px;
+  }
+  .hook img .font-size-large-24px {
+    font-size: 24px;
+  }
+  .hook img .font-size-large-32px {
+    font-size: 32px;
+  }
+  .hook img .font-size-large-36px {
+    font-size: 36px;
+  }
+  .hook img .font-size-large-48px {
+    font-size: 48px;
+  }
+  .hook img .font-size-large-96px {
+    font-size: 96px;
+  }
+  .hook img .font-size-large-288px {
+    font-size: 288px;
   }
 }
 .hook p {
@@ -626,21 +1166,237 @@ footer img {
   .hook p {
     justify-content: center;
   }
+  .hook p .font-weight-large-100 {
+    font-weight: 100;
+  }
+  .hook p .font-weight-large-200 {
+    font-weight: 200;
+  }
+  .hook p .font-weight-large-300 {
+    font-weight: 300;
+  }
+  .hook p .font-weight-large-400 {
+    font-weight: 400;
+  }
+  .hook p .font-weight-large-500 {
+    font-weight: 500;
+  }
+  .hook p .font-weight-large-600 {
+    font-weight: 600;
+  }
+  .hook p .font-weight-large-700 {
+    font-weight: 700;
+  }
+  .hook p .font-size-large-10px {
+    font-size: 10px;
+  }
+  .hook p .font-size-large-12px {
+    font-size: 12px;
+  }
+  .hook p .font-size-large-13px {
+    font-size: 13px;
+  }
+  .hook p .font-size-large-14px {
+    font-size: 14px;
+  }
+  .hook p .font-size-large-18px {
+    font-size: 18px;
+  }
+  .hook p .font-size-large-24px {
+    font-size: 24px;
+  }
+  .hook p .font-size-large-32px {
+    font-size: 32px;
+  }
+  .hook p .font-size-large-36px {
+    font-size: 36px;
+  }
+  .hook p .font-size-large-48px {
+    font-size: 48px;
+  }
+  .hook p .font-size-large-96px {
+    font-size: 96px;
+  }
+  .hook p .font-size-large-288px {
+    font-size: 288px;
+  }
 }
 
 @media only screen and (min-width: 480px) {
   .hook {
     height: 150px;
   }
+  .hook .font-weight-large-100 {
+    font-weight: 100;
+  }
+  .hook .font-weight-large-200 {
+    font-weight: 200;
+  }
+  .hook .font-weight-large-300 {
+    font-weight: 300;
+  }
+  .hook .font-weight-large-400 {
+    font-weight: 400;
+  }
+  .hook .font-weight-large-500 {
+    font-weight: 500;
+  }
+  .hook .font-weight-large-600 {
+    font-weight: 600;
+  }
+  .hook .font-weight-large-700 {
+    font-weight: 700;
+  }
+  .hook .font-size-large-10px {
+    font-size: 10px;
+  }
+  .hook .font-size-large-12px {
+    font-size: 12px;
+  }
+  .hook .font-size-large-13px {
+    font-size: 13px;
+  }
+  .hook .font-size-large-14px {
+    font-size: 14px;
+  }
+  .hook .font-size-large-18px {
+    font-size: 18px;
+  }
+  .hook .font-size-large-24px {
+    font-size: 24px;
+  }
+  .hook .font-size-large-32px {
+    font-size: 32px;
+  }
+  .hook .font-size-large-36px {
+    font-size: 36px;
+  }
+  .hook .font-size-large-48px {
+    font-size: 48px;
+  }
+  .hook .font-size-large-96px {
+    font-size: 96px;
+  }
+  .hook .font-size-large-288px {
+    font-size: 288px;
+  }
 }
 @media only screen and (min-width: 480px) {
   .hook img {
     height: 150px;
   }
+  .hook img .font-weight-large-100 {
+    font-weight: 100;
+  }
+  .hook img .font-weight-large-200 {
+    font-weight: 200;
+  }
+  .hook img .font-weight-large-300 {
+    font-weight: 300;
+  }
+  .hook img .font-weight-large-400 {
+    font-weight: 400;
+  }
+  .hook img .font-weight-large-500 {
+    font-weight: 500;
+  }
+  .hook img .font-weight-large-600 {
+    font-weight: 600;
+  }
+  .hook img .font-weight-large-700 {
+    font-weight: 700;
+  }
+  .hook img .font-size-large-10px {
+    font-size: 10px;
+  }
+  .hook img .font-size-large-12px {
+    font-size: 12px;
+  }
+  .hook img .font-size-large-13px {
+    font-size: 13px;
+  }
+  .hook img .font-size-large-14px {
+    font-size: 14px;
+  }
+  .hook img .font-size-large-18px {
+    font-size: 18px;
+  }
+  .hook img .font-size-large-24px {
+    font-size: 24px;
+  }
+  .hook img .font-size-large-32px {
+    font-size: 32px;
+  }
+  .hook img .font-size-large-36px {
+    font-size: 36px;
+  }
+  .hook img .font-size-large-48px {
+    font-size: 48px;
+  }
+  .hook img .font-size-large-96px {
+    font-size: 96px;
+  }
+  .hook img .font-size-large-288px {
+    font-size: 288px;
+  }
 }
 @media only screen and (min-width: 480px) {
   .hook p {
     justify-content: center;
+  }
+  .hook p .font-weight-large-100 {
+    font-weight: 100;
+  }
+  .hook p .font-weight-large-200 {
+    font-weight: 200;
+  }
+  .hook p .font-weight-large-300 {
+    font-weight: 300;
+  }
+  .hook p .font-weight-large-400 {
+    font-weight: 400;
+  }
+  .hook p .font-weight-large-500 {
+    font-weight: 500;
+  }
+  .hook p .font-weight-large-600 {
+    font-weight: 600;
+  }
+  .hook p .font-weight-large-700 {
+    font-weight: 700;
+  }
+  .hook p .font-size-large-10px {
+    font-size: 10px;
+  }
+  .hook p .font-size-large-12px {
+    font-size: 12px;
+  }
+  .hook p .font-size-large-13px {
+    font-size: 13px;
+  }
+  .hook p .font-size-large-14px {
+    font-size: 14px;
+  }
+  .hook p .font-size-large-18px {
+    font-size: 18px;
+  }
+  .hook p .font-size-large-24px {
+    font-size: 24px;
+  }
+  .hook p .font-size-large-32px {
+    font-size: 32px;
+  }
+  .hook p .font-size-large-36px {
+    font-size: 36px;
+  }
+  .hook p .font-size-large-48px {
+    font-size: 48px;
+  }
+  .hook p .font-size-large-96px {
+    font-size: 96px;
+  }
+  .hook p .font-size-large-288px {
+    font-size: 288px;
   }
 }
 
@@ -656,6 +1412,60 @@ footer img {
 @media only screen and (min-width: 480px) {
   .card-grey-long {
     min-height: 200px;
+  }
+  .card-grey-long .font-weight-large-100 {
+    font-weight: 100;
+  }
+  .card-grey-long .font-weight-large-200 {
+    font-weight: 200;
+  }
+  .card-grey-long .font-weight-large-300 {
+    font-weight: 300;
+  }
+  .card-grey-long .font-weight-large-400 {
+    font-weight: 400;
+  }
+  .card-grey-long .font-weight-large-500 {
+    font-weight: 500;
+  }
+  .card-grey-long .font-weight-large-600 {
+    font-weight: 600;
+  }
+  .card-grey-long .font-weight-large-700 {
+    font-weight: 700;
+  }
+  .card-grey-long .font-size-large-10px {
+    font-size: 10px;
+  }
+  .card-grey-long .font-size-large-12px {
+    font-size: 12px;
+  }
+  .card-grey-long .font-size-large-13px {
+    font-size: 13px;
+  }
+  .card-grey-long .font-size-large-14px {
+    font-size: 14px;
+  }
+  .card-grey-long .font-size-large-18px {
+    font-size: 18px;
+  }
+  .card-grey-long .font-size-large-24px {
+    font-size: 24px;
+  }
+  .card-grey-long .font-size-large-32px {
+    font-size: 32px;
+  }
+  .card-grey-long .font-size-large-36px {
+    font-size: 36px;
+  }
+  .card-grey-long .font-size-large-48px {
+    font-size: 48px;
+  }
+  .card-grey-long .font-size-large-96px {
+    font-size: 96px;
+  }
+  .card-grey-long .font-size-large-288px {
+    font-size: 288px;
   }
 }
 
@@ -713,6 +1523,60 @@ footer img {
     height: 340px;
     width: 30%;
   }
+  .card .font-weight-large-100 {
+    font-weight: 100;
+  }
+  .card .font-weight-large-200 {
+    font-weight: 200;
+  }
+  .card .font-weight-large-300 {
+    font-weight: 300;
+  }
+  .card .font-weight-large-400 {
+    font-weight: 400;
+  }
+  .card .font-weight-large-500 {
+    font-weight: 500;
+  }
+  .card .font-weight-large-600 {
+    font-weight: 600;
+  }
+  .card .font-weight-large-700 {
+    font-weight: 700;
+  }
+  .card .font-size-large-10px {
+    font-size: 10px;
+  }
+  .card .font-size-large-12px {
+    font-size: 12px;
+  }
+  .card .font-size-large-13px {
+    font-size: 13px;
+  }
+  .card .font-size-large-14px {
+    font-size: 14px;
+  }
+  .card .font-size-large-18px {
+    font-size: 18px;
+  }
+  .card .font-size-large-24px {
+    font-size: 24px;
+  }
+  .card .font-size-large-32px {
+    font-size: 32px;
+  }
+  .card .font-size-large-36px {
+    font-size: 36px;
+  }
+  .card .font-size-large-48px {
+    font-size: 48px;
+  }
+  .card .font-size-large-96px {
+    font-size: 96px;
+  }
+  .card .font-size-large-288px {
+    font-size: 288px;
+  }
 }
 
 #locations {
@@ -732,6 +1596,60 @@ footer img {
     padding: 1rem;
     background-color: #e5e5e5;
     border-radius: 25px;
+  }
+  #locations .font-weight-large-100 {
+    font-weight: 100;
+  }
+  #locations .font-weight-large-200 {
+    font-weight: 200;
+  }
+  #locations .font-weight-large-300 {
+    font-weight: 300;
+  }
+  #locations .font-weight-large-400 {
+    font-weight: 400;
+  }
+  #locations .font-weight-large-500 {
+    font-weight: 500;
+  }
+  #locations .font-weight-large-600 {
+    font-weight: 600;
+  }
+  #locations .font-weight-large-700 {
+    font-weight: 700;
+  }
+  #locations .font-size-large-10px {
+    font-size: 10px;
+  }
+  #locations .font-size-large-12px {
+    font-size: 12px;
+  }
+  #locations .font-size-large-13px {
+    font-size: 13px;
+  }
+  #locations .font-size-large-14px {
+    font-size: 14px;
+  }
+  #locations .font-size-large-18px {
+    font-size: 18px;
+  }
+  #locations .font-size-large-24px {
+    font-size: 24px;
+  }
+  #locations .font-size-large-32px {
+    font-size: 32px;
+  }
+  #locations .font-size-large-36px {
+    font-size: 36px;
+  }
+  #locations .font-size-large-48px {
+    font-size: 48px;
+  }
+  #locations .font-size-large-96px {
+    font-size: 96px;
+  }
+  #locations .font-size-large-288px {
+    font-size: 288px;
   }
 }
 
@@ -816,6 +1734,60 @@ h1 {
   .header-sheet {
     flex-direction: row;
   }
+  .header-sheet .font-weight-large-100 {
+    font-weight: 100;
+  }
+  .header-sheet .font-weight-large-200 {
+    font-weight: 200;
+  }
+  .header-sheet .font-weight-large-300 {
+    font-weight: 300;
+  }
+  .header-sheet .font-weight-large-400 {
+    font-weight: 400;
+  }
+  .header-sheet .font-weight-large-500 {
+    font-weight: 500;
+  }
+  .header-sheet .font-weight-large-600 {
+    font-weight: 600;
+  }
+  .header-sheet .font-weight-large-700 {
+    font-weight: 700;
+  }
+  .header-sheet .font-size-large-10px {
+    font-size: 10px;
+  }
+  .header-sheet .font-size-large-12px {
+    font-size: 12px;
+  }
+  .header-sheet .font-size-large-13px {
+    font-size: 13px;
+  }
+  .header-sheet .font-size-large-14px {
+    font-size: 14px;
+  }
+  .header-sheet .font-size-large-18px {
+    font-size: 18px;
+  }
+  .header-sheet .font-size-large-24px {
+    font-size: 24px;
+  }
+  .header-sheet .font-size-large-32px {
+    font-size: 32px;
+  }
+  .header-sheet .font-size-large-36px {
+    font-size: 36px;
+  }
+  .header-sheet .font-size-large-48px {
+    font-size: 48px;
+  }
+  .header-sheet .font-size-large-96px {
+    font-size: 96px;
+  }
+  .header-sheet .font-size-large-288px {
+    font-size: 288px;
+  }
 }
 
 @media only screen and (min-width: 480px) {
@@ -823,11 +1795,119 @@ h1 {
     width: 55%;
     margin-top: 1rem;
   }
+  .la-location .font-weight-large-100 {
+    font-weight: 100;
+  }
+  .la-location .font-weight-large-200 {
+    font-weight: 200;
+  }
+  .la-location .font-weight-large-300 {
+    font-weight: 300;
+  }
+  .la-location .font-weight-large-400 {
+    font-weight: 400;
+  }
+  .la-location .font-weight-large-500 {
+    font-weight: 500;
+  }
+  .la-location .font-weight-large-600 {
+    font-weight: 600;
+  }
+  .la-location .font-weight-large-700 {
+    font-weight: 700;
+  }
+  .la-location .font-size-large-10px {
+    font-size: 10px;
+  }
+  .la-location .font-size-large-12px {
+    font-size: 12px;
+  }
+  .la-location .font-size-large-13px {
+    font-size: 13px;
+  }
+  .la-location .font-size-large-14px {
+    font-size: 14px;
+  }
+  .la-location .font-size-large-18px {
+    font-size: 18px;
+  }
+  .la-location .font-size-large-24px {
+    font-size: 24px;
+  }
+  .la-location .font-size-large-32px {
+    font-size: 32px;
+  }
+  .la-location .font-size-large-36px {
+    font-size: 36px;
+  }
+  .la-location .font-size-large-48px {
+    font-size: 48px;
+  }
+  .la-location .font-size-large-96px {
+    font-size: 96px;
+  }
+  .la-location .font-size-large-288px {
+    font-size: 288px;
+  }
 }
 
 @media only screen and (min-width: 480px) {
   .localisation-location {
     margin: 0.2em 0 1em 0;
+  }
+  .localisation-location .font-weight-large-100 {
+    font-weight: 100;
+  }
+  .localisation-location .font-weight-large-200 {
+    font-weight: 200;
+  }
+  .localisation-location .font-weight-large-300 {
+    font-weight: 300;
+  }
+  .localisation-location .font-weight-large-400 {
+    font-weight: 400;
+  }
+  .localisation-location .font-weight-large-500 {
+    font-weight: 500;
+  }
+  .localisation-location .font-weight-large-600 {
+    font-weight: 600;
+  }
+  .localisation-location .font-weight-large-700 {
+    font-weight: 700;
+  }
+  .localisation-location .font-size-large-10px {
+    font-size: 10px;
+  }
+  .localisation-location .font-size-large-12px {
+    font-size: 12px;
+  }
+  .localisation-location .font-size-large-13px {
+    font-size: 13px;
+  }
+  .localisation-location .font-size-large-14px {
+    font-size: 14px;
+  }
+  .localisation-location .font-size-large-18px {
+    font-size: 18px;
+  }
+  .localisation-location .font-size-large-24px {
+    font-size: 24px;
+  }
+  .localisation-location .font-size-large-32px {
+    font-size: 32px;
+  }
+  .localisation-location .font-size-large-36px {
+    font-size: 36px;
+  }
+  .localisation-location .font-size-large-48px {
+    font-size: 48px;
+  }
+  .localisation-location .font-size-large-96px {
+    font-size: 96px;
+  }
+  .localisation-location .font-size-large-288px {
+    font-size: 288px;
   }
 }
 
@@ -835,17 +1915,179 @@ h1 {
   .description-equipments {
     flex-direction: row;
   }
+  .description-equipments .font-weight-large-100 {
+    font-weight: 100;
+  }
+  .description-equipments .font-weight-large-200 {
+    font-weight: 200;
+  }
+  .description-equipments .font-weight-large-300 {
+    font-weight: 300;
+  }
+  .description-equipments .font-weight-large-400 {
+    font-weight: 400;
+  }
+  .description-equipments .font-weight-large-500 {
+    font-weight: 500;
+  }
+  .description-equipments .font-weight-large-600 {
+    font-weight: 600;
+  }
+  .description-equipments .font-weight-large-700 {
+    font-weight: 700;
+  }
+  .description-equipments .font-size-large-10px {
+    font-size: 10px;
+  }
+  .description-equipments .font-size-large-12px {
+    font-size: 12px;
+  }
+  .description-equipments .font-size-large-13px {
+    font-size: 13px;
+  }
+  .description-equipments .font-size-large-14px {
+    font-size: 14px;
+  }
+  .description-equipments .font-size-large-18px {
+    font-size: 18px;
+  }
+  .description-equipments .font-size-large-24px {
+    font-size: 24px;
+  }
+  .description-equipments .font-size-large-32px {
+    font-size: 32px;
+  }
+  .description-equipments .font-size-large-36px {
+    font-size: 36px;
+  }
+  .description-equipments .font-size-large-48px {
+    font-size: 48px;
+  }
+  .description-equipments .font-size-large-96px {
+    font-size: 96px;
+  }
+  .description-equipments .font-size-large-288px {
+    font-size: 288px;
+  }
 }
 
 @media only screen and (min-width: 480px) {
   .description {
     width: 47%;
   }
+  .description .font-weight-large-100 {
+    font-weight: 100;
+  }
+  .description .font-weight-large-200 {
+    font-weight: 200;
+  }
+  .description .font-weight-large-300 {
+    font-weight: 300;
+  }
+  .description .font-weight-large-400 {
+    font-weight: 400;
+  }
+  .description .font-weight-large-500 {
+    font-weight: 500;
+  }
+  .description .font-weight-large-600 {
+    font-weight: 600;
+  }
+  .description .font-weight-large-700 {
+    font-weight: 700;
+  }
+  .description .font-size-large-10px {
+    font-size: 10px;
+  }
+  .description .font-size-large-12px {
+    font-size: 12px;
+  }
+  .description .font-size-large-13px {
+    font-size: 13px;
+  }
+  .description .font-size-large-14px {
+    font-size: 14px;
+  }
+  .description .font-size-large-18px {
+    font-size: 18px;
+  }
+  .description .font-size-large-24px {
+    font-size: 24px;
+  }
+  .description .font-size-large-32px {
+    font-size: 32px;
+  }
+  .description .font-size-large-36px {
+    font-size: 36px;
+  }
+  .description .font-size-large-48px {
+    font-size: 48px;
+  }
+  .description .font-size-large-96px {
+    font-size: 96px;
+  }
+  .description .font-size-large-288px {
+    font-size: 288px;
+  }
 }
 
 @media only screen and (min-width: 480px) {
   .equipments {
     width: 47%;
+  }
+  .equipments .font-weight-large-100 {
+    font-weight: 100;
+  }
+  .equipments .font-weight-large-200 {
+    font-weight: 200;
+  }
+  .equipments .font-weight-large-300 {
+    font-weight: 300;
+  }
+  .equipments .font-weight-large-400 {
+    font-weight: 400;
+  }
+  .equipments .font-weight-large-500 {
+    font-weight: 500;
+  }
+  .equipments .font-weight-large-600 {
+    font-weight: 600;
+  }
+  .equipments .font-weight-large-700 {
+    font-weight: 700;
+  }
+  .equipments .font-size-large-10px {
+    font-size: 10px;
+  }
+  .equipments .font-size-large-12px {
+    font-size: 12px;
+  }
+  .equipments .font-size-large-13px {
+    font-size: 13px;
+  }
+  .equipments .font-size-large-14px {
+    font-size: 14px;
+  }
+  .equipments .font-size-large-18px {
+    font-size: 18px;
+  }
+  .equipments .font-size-large-24px {
+    font-size: 24px;
+  }
+  .equipments .font-size-large-32px {
+    font-size: 32px;
+  }
+  .equipments .font-size-large-36px {
+    font-size: 36px;
+  }
+  .equipments .font-size-large-48px {
+    font-size: 48px;
+  }
+  .equipments .font-size-large-96px {
+    font-size: 96px;
+  }
+  .equipments .font-size-large-288px {
+    font-size: 288px;
   }
 }
 
@@ -858,11 +2100,119 @@ h1 {
     margin-top: 0.8rem;
     padding-bottom: 10px;
   }
+  .host-rating-location .font-weight-large-100 {
+    font-weight: 100;
+  }
+  .host-rating-location .font-weight-large-200 {
+    font-weight: 200;
+  }
+  .host-rating-location .font-weight-large-300 {
+    font-weight: 300;
+  }
+  .host-rating-location .font-weight-large-400 {
+    font-weight: 400;
+  }
+  .host-rating-location .font-weight-large-500 {
+    font-weight: 500;
+  }
+  .host-rating-location .font-weight-large-600 {
+    font-weight: 600;
+  }
+  .host-rating-location .font-weight-large-700 {
+    font-weight: 700;
+  }
+  .host-rating-location .font-size-large-10px {
+    font-size: 10px;
+  }
+  .host-rating-location .font-size-large-12px {
+    font-size: 12px;
+  }
+  .host-rating-location .font-size-large-13px {
+    font-size: 13px;
+  }
+  .host-rating-location .font-size-large-14px {
+    font-size: 14px;
+  }
+  .host-rating-location .font-size-large-18px {
+    font-size: 18px;
+  }
+  .host-rating-location .font-size-large-24px {
+    font-size: 24px;
+  }
+  .host-rating-location .font-size-large-32px {
+    font-size: 32px;
+  }
+  .host-rating-location .font-size-large-36px {
+    font-size: 36px;
+  }
+  .host-rating-location .font-size-large-48px {
+    font-size: 48px;
+  }
+  .host-rating-location .font-size-large-96px {
+    font-size: 96px;
+  }
+  .host-rating-location .font-size-large-288px {
+    font-size: 288px;
+  }
 }
 
 @media only screen and (min-width: 480px) {
   .rating-location img {
     width: 30px;
+  }
+  .rating-location img .font-weight-large-100 {
+    font-weight: 100;
+  }
+  .rating-location img .font-weight-large-200 {
+    font-weight: 200;
+  }
+  .rating-location img .font-weight-large-300 {
+    font-weight: 300;
+  }
+  .rating-location img .font-weight-large-400 {
+    font-weight: 400;
+  }
+  .rating-location img .font-weight-large-500 {
+    font-weight: 500;
+  }
+  .rating-location img .font-weight-large-600 {
+    font-weight: 600;
+  }
+  .rating-location img .font-weight-large-700 {
+    font-weight: 700;
+  }
+  .rating-location img .font-size-large-10px {
+    font-size: 10px;
+  }
+  .rating-location img .font-size-large-12px {
+    font-size: 12px;
+  }
+  .rating-location img .font-size-large-13px {
+    font-size: 13px;
+  }
+  .rating-location img .font-size-large-14px {
+    font-size: 14px;
+  }
+  .rating-location img .font-size-large-18px {
+    font-size: 18px;
+  }
+  .rating-location img .font-size-large-24px {
+    font-size: 24px;
+  }
+  .rating-location img .font-size-large-32px {
+    font-size: 32px;
+  }
+  .rating-location img .font-size-large-36px {
+    font-size: 36px;
+  }
+  .rating-location img .font-size-large-48px {
+    font-size: 48px;
+  }
+  .rating-location img .font-size-large-96px {
+    font-size: 96px;
+  }
+  .rating-location img .font-size-large-288px {
+    font-size: 288px;
   }
 }
 
@@ -875,6 +2225,60 @@ h1 {
   .a-propos-main {
     width: 85%;
   }
+  .a-propos-main .font-weight-large-100 {
+    font-weight: 100;
+  }
+  .a-propos-main .font-weight-large-200 {
+    font-weight: 200;
+  }
+  .a-propos-main .font-weight-large-300 {
+    font-weight: 300;
+  }
+  .a-propos-main .font-weight-large-400 {
+    font-weight: 400;
+  }
+  .a-propos-main .font-weight-large-500 {
+    font-weight: 500;
+  }
+  .a-propos-main .font-weight-large-600 {
+    font-weight: 600;
+  }
+  .a-propos-main .font-weight-large-700 {
+    font-weight: 700;
+  }
+  .a-propos-main .font-size-large-10px {
+    font-size: 10px;
+  }
+  .a-propos-main .font-size-large-12px {
+    font-size: 12px;
+  }
+  .a-propos-main .font-size-large-13px {
+    font-size: 13px;
+  }
+  .a-propos-main .font-size-large-14px {
+    font-size: 14px;
+  }
+  .a-propos-main .font-size-large-18px {
+    font-size: 18px;
+  }
+  .a-propos-main .font-size-large-24px {
+    font-size: 24px;
+  }
+  .a-propos-main .font-size-large-32px {
+    font-size: 32px;
+  }
+  .a-propos-main .font-size-large-36px {
+    font-size: 36px;
+  }
+  .a-propos-main .font-size-large-48px {
+    font-size: 48px;
+  }
+  .a-propos-main .font-size-large-96px {
+    font-size: 96px;
+  }
+  .a-propos-main .font-size-large-288px {
+    font-size: 288px;
+  }
 }
 .a-propos-main h3 {
   display: flex;
@@ -886,5 +2290,59 @@ h1 {
 @media only screen and (min-width: 480px) {
   .a-propos-main {
     width: 85%;
+  }
+  .a-propos-main .font-weight-large-100 {
+    font-weight: 100;
+  }
+  .a-propos-main .font-weight-large-200 {
+    font-weight: 200;
+  }
+  .a-propos-main .font-weight-large-300 {
+    font-weight: 300;
+  }
+  .a-propos-main .font-weight-large-400 {
+    font-weight: 400;
+  }
+  .a-propos-main .font-weight-large-500 {
+    font-weight: 500;
+  }
+  .a-propos-main .font-weight-large-600 {
+    font-weight: 600;
+  }
+  .a-propos-main .font-weight-large-700 {
+    font-weight: 700;
+  }
+  .a-propos-main .font-size-large-10px {
+    font-size: 10px;
+  }
+  .a-propos-main .font-size-large-12px {
+    font-size: 12px;
+  }
+  .a-propos-main .font-size-large-13px {
+    font-size: 13px;
+  }
+  .a-propos-main .font-size-large-14px {
+    font-size: 14px;
+  }
+  .a-propos-main .font-size-large-18px {
+    font-size: 18px;
+  }
+  .a-propos-main .font-size-large-24px {
+    font-size: 24px;
+  }
+  .a-propos-main .font-size-large-32px {
+    font-size: 32px;
+  }
+  .a-propos-main .font-size-large-36px {
+    font-size: 36px;
+  }
+  .a-propos-main .font-size-large-48px {
+    font-size: 48px;
+  }
+  .a-propos-main .font-size-large-96px {
+    font-size: 96px;
+  }
+  .a-propos-main .font-size-large-288px {
+    font-size: 288px;
   }
 }/*# sourceMappingURL=main.css.map */

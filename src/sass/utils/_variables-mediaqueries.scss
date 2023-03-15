@@ -4,6 +4,18 @@ $breakpoint-large: 480px;
 // Mixin pour les mediaqueries large
 @mixin media-large {
   @media only screen and (min-width: $breakpoint-large) {
+    @each $weight in $font-weight {
+      .font-weight-large-#{$weight} {
+        font-weight: $weight;
+      }
+    }
+
+    @each $size in $font-sizes {
+      .font-size-large-#{$size} {
+        font-size: $size;
+      }
+    }
+
     @content;
   }
 }
