@@ -1,83 +1,3 @@
-.font-size-small-10px {
-  font-size: 10px;
-}
-
-.font-size-small-12px {
-  font-size: 12px;
-}
-
-.font-size-small-13px {
-  font-size: 13px;
-}
-
-.font-size-small-14px {
-  font-size: 14px;
-}
-
-.font-size-small-18px {
-  font-size: 18px;
-}
-
-.font-size-small-24px {
-  font-size: 24px;
-}
-
-.font-size-small-32px {
-  font-size: 32px;
-}
-
-.font-size-small-36px {
-  font-size: 36px;
-}
-
-.font-size-small-48px {
-  font-size: 48px;
-}
-
-.font-size-small-96px {
-  font-size: 96px;
-}
-
-.font-size-small-288px {
-  font-size: 288px;
-}
-
-.font-weight-small-100 {
-  font-weight: 100;
-}
-
-.font-weight-small-200 {
-  font-weight: 200;
-}
-
-.font-weight-small-300 {
-  font-weight: 300;
-}
-
-.font-weight-small-400 {
-  font-weight: 400;
-}
-
-.font-weight-small-500 {
-  font-weight: 500;
-}
-
-.font-weight-small-600 {
-  font-weight: 600;
-}
-
-.font-weight-small-700 {
-  font-weight: 700;
-}
-
-.font-color-primary {
-  color: #ff6060;
-}
-
-.font-color-principal {
-  color: #ffffff;
-}
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -433,6 +353,92 @@ h1 {
 
 title {
   font-family: "montserrat", sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.font-size-small-10px {
+  font-size: 10px;
+}
+
+.font-size-small-12px {
+  font-size: 12px;
+}
+
+.font-size-small-13px {
+  font-size: 13px;
+}
+
+.font-size-small-14px {
+  font-size: 14px;
+}
+
+.font-size-small-18px {
+  font-size: 18px;
+}
+
+.font-size-small-24px {
+  font-size: 24px;
+}
+
+.font-size-small-32px {
+  font-size: 32px;
+}
+
+.font-size-small-36px {
+  font-size: 36px;
+}
+
+.font-size-small-48px {
+  font-size: 48px;
+}
+
+.font-size-small-96px {
+  font-size: 96px;
+}
+
+.font-size-small-288px {
+  font-size: 288px;
+}
+
+.font-weight-small-100 {
+  font-weight: 100;
+}
+
+.font-weight-small-200 {
+  font-weight: 200;
+}
+
+.font-weight-small-300 {
+  font-weight: 300;
+}
+
+.font-weight-small-400 {
+  font-weight: 400;
+}
+
+.font-weight-small-500 {
+  font-weight: 500;
+}
+
+.font-weight-small-600 {
+  font-weight: 600;
+}
+
+.font-weight-small-700 {
+  font-weight: 700;
+}
+
+.font-color-primary {
+  color: #ff6060;
+}
+
+.font-color-principal {
+  color: #ffffff;
 }
 
 header {
@@ -1004,6 +1010,7 @@ button {
   width: 90%;
   flex: 1;
   margin: 0 auto;
+  height: 100%;
 }
 
 footer {
@@ -1022,68 +1029,69 @@ footer img {
   width: 122px;
 }
 
+@media only screen and (min-width: 480px) {
+  footer p {
+    margin-bottom: 0px;
+  }
+  footer p .font-weight-large-100 {
+    font-weight: 100;
+  }
+  footer p .font-weight-large-200 {
+    font-weight: 200;
+  }
+  footer p .font-weight-large-300 {
+    font-weight: 300;
+  }
+  footer p .font-weight-large-400 {
+    font-weight: 400;
+  }
+  footer p .font-weight-large-500 {
+    font-weight: 500;
+  }
+  footer p .font-weight-large-600 {
+    font-weight: 600;
+  }
+  footer p .font-weight-large-700 {
+    font-weight: 700;
+  }
+  footer p .font-size-large-10px {
+    font-size: 10px;
+  }
+  footer p .font-size-large-12px {
+    font-size: 12px;
+  }
+  footer p .font-size-large-13px {
+    font-size: 13px;
+  }
+  footer p .font-size-large-14px {
+    font-size: 14px;
+  }
+  footer p .font-size-large-18px {
+    font-size: 18px;
+  }
+  footer p .font-size-large-24px {
+    font-size: 24px;
+  }
+  footer p .font-size-large-32px {
+    font-size: 32px;
+  }
+  footer p .font-size-large-36px {
+    font-size: 36px;
+  }
+  footer p .font-size-large-48px {
+    font-size: 48px;
+  }
+  footer p .font-size-large-96px {
+    font-size: 96px;
+  }
+  footer p .font-size-large-288px {
+    font-size: 288px;
+  }
+}
+
 .hook {
   position: relative;
   height: 100px;
-}
-@media only screen and (min-width: 480px) {
-  .hook {
-    height: 150px;
-  }
-  .hook .font-weight-large-100 {
-    font-weight: 100;
-  }
-  .hook .font-weight-large-200 {
-    font-weight: 200;
-  }
-  .hook .font-weight-large-300 {
-    font-weight: 300;
-  }
-  .hook .font-weight-large-400 {
-    font-weight: 400;
-  }
-  .hook .font-weight-large-500 {
-    font-weight: 500;
-  }
-  .hook .font-weight-large-600 {
-    font-weight: 600;
-  }
-  .hook .font-weight-large-700 {
-    font-weight: 700;
-  }
-  .hook .font-size-large-10px {
-    font-size: 10px;
-  }
-  .hook .font-size-large-12px {
-    font-size: 12px;
-  }
-  .hook .font-size-large-13px {
-    font-size: 13px;
-  }
-  .hook .font-size-large-14px {
-    font-size: 14px;
-  }
-  .hook .font-size-large-18px {
-    font-size: 18px;
-  }
-  .hook .font-size-large-24px {
-    font-size: 24px;
-  }
-  .hook .font-size-large-32px {
-    font-size: 32px;
-  }
-  .hook .font-size-large-36px {
-    font-size: 36px;
-  }
-  .hook .font-size-large-48px {
-    font-size: 48px;
-  }
-  .hook .font-size-large-96px {
-    font-size: 96px;
-  }
-  .hook .font-size-large-288px {
-    font-size: 288px;
-  }
 }
 .hook img {
   border-radius: 8px;
@@ -1091,65 +1099,6 @@ footer img {
      object-fit: cover;
   width: 100%;
   height: 100px;
-}
-@media only screen and (min-width: 480px) {
-  .hook img {
-    height: 150px;
-  }
-  .hook img .font-weight-large-100 {
-    font-weight: 100;
-  }
-  .hook img .font-weight-large-200 {
-    font-weight: 200;
-  }
-  .hook img .font-weight-large-300 {
-    font-weight: 300;
-  }
-  .hook img .font-weight-large-400 {
-    font-weight: 400;
-  }
-  .hook img .font-weight-large-500 {
-    font-weight: 500;
-  }
-  .hook img .font-weight-large-600 {
-    font-weight: 600;
-  }
-  .hook img .font-weight-large-700 {
-    font-weight: 700;
-  }
-  .hook img .font-size-large-10px {
-    font-size: 10px;
-  }
-  .hook img .font-size-large-12px {
-    font-size: 12px;
-  }
-  .hook img .font-size-large-13px {
-    font-size: 13px;
-  }
-  .hook img .font-size-large-14px {
-    font-size: 14px;
-  }
-  .hook img .font-size-large-18px {
-    font-size: 18px;
-  }
-  .hook img .font-size-large-24px {
-    font-size: 24px;
-  }
-  .hook img .font-size-large-32px {
-    font-size: 32px;
-  }
-  .hook img .font-size-large-36px {
-    font-size: 36px;
-  }
-  .hook img .font-size-large-48px {
-    font-size: 48px;
-  }
-  .hook img .font-size-large-96px {
-    font-size: 96px;
-  }
-  .hook img .font-size-large-288px {
-    font-size: 288px;
-  }
 }
 .hook p {
   position: absolute;
@@ -1161,65 +1110,6 @@ footer img {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.2);
   z-index: 1;
-}
-@media only screen and (min-width: 480px) {
-  .hook p {
-    justify-content: center;
-  }
-  .hook p .font-weight-large-100 {
-    font-weight: 100;
-  }
-  .hook p .font-weight-large-200 {
-    font-weight: 200;
-  }
-  .hook p .font-weight-large-300 {
-    font-weight: 300;
-  }
-  .hook p .font-weight-large-400 {
-    font-weight: 400;
-  }
-  .hook p .font-weight-large-500 {
-    font-weight: 500;
-  }
-  .hook p .font-weight-large-600 {
-    font-weight: 600;
-  }
-  .hook p .font-weight-large-700 {
-    font-weight: 700;
-  }
-  .hook p .font-size-large-10px {
-    font-size: 10px;
-  }
-  .hook p .font-size-large-12px {
-    font-size: 12px;
-  }
-  .hook p .font-size-large-13px {
-    font-size: 13px;
-  }
-  .hook p .font-size-large-14px {
-    font-size: 14px;
-  }
-  .hook p .font-size-large-18px {
-    font-size: 18px;
-  }
-  .hook p .font-size-large-24px {
-    font-size: 24px;
-  }
-  .hook p .font-size-large-32px {
-    font-size: 32px;
-  }
-  .hook p .font-size-large-36px {
-    font-size: 36px;
-  }
-  .hook p .font-size-large-48px {
-    font-size: 48px;
-  }
-  .hook p .font-size-large-96px {
-    font-size: 96px;
-  }
-  .hook p .font-size-large-288px {
-    font-size: 288px;
-  }
 }
 
 @media only screen and (min-width: 480px) {

@@ -44,3 +44,9 @@ h1 {
 title {
     font-family: 'montserrat', sans-serif;
 }
+
+#root {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
