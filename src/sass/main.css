@@ -706,6 +706,62 @@ button {
 }
 
 @media only screen and (min-width: 480px) {
+  footer .font-weight-large-100 {
+    font-weight: 100;
+  }
+  footer .font-weight-large-200 {
+    font-weight: 200;
+  }
+  footer .font-weight-large-300 {
+    font-weight: 300;
+  }
+  footer .font-weight-large-400 {
+    font-weight: 400;
+  }
+  footer .font-weight-large-500 {
+    font-weight: 500;
+  }
+  footer .font-weight-large-600 {
+    font-weight: 600;
+  }
+  footer .font-weight-large-700 {
+    font-weight: 700;
+  }
+  footer .font-size-large-10px {
+    font-size: 10px;
+  }
+  footer .font-size-large-12px {
+    font-size: 12px;
+  }
+  footer .font-size-large-13px {
+    font-size: 13px;
+  }
+  footer .font-size-large-14px {
+    font-size: 14px;
+  }
+  footer .font-size-large-18px {
+    font-size: 18px;
+  }
+  footer .font-size-large-24px {
+    font-size: 24px;
+  }
+  footer .font-size-large-32px {
+    font-size: 32px;
+  }
+  footer .font-size-large-36px {
+    font-size: 36px;
+  }
+  footer .font-size-large-48px {
+    font-size: 48px;
+  }
+  footer .font-size-large-96px {
+    font-size: 96px;
+  }
+  footer .font-size-large-288px {
+    font-size: 288px;
+  }
+}
+@media only screen and (min-width: 480px) {
   footer p {
     margin-bottom: 0px;
   }
@@ -774,6 +830,7 @@ footer {
   height: 209px;
 }
 footer p {
+  text-align: center;
   margin-bottom: 25px;
   color: white;
 }
@@ -1254,9 +1311,62 @@ footer img {
 }
 
 @media only screen and (min-width: 480px) {
-  .error-main p {
-    font-style: italic;
+  .error-main .font-weight-large-100 {
+    font-weight: 100;
   }
+  .error-main .font-weight-large-200 {
+    font-weight: 200;
+  }
+  .error-main .font-weight-large-300 {
+    font-weight: 300;
+  }
+  .error-main .font-weight-large-400 {
+    font-weight: 400;
+  }
+  .error-main .font-weight-large-500 {
+    font-weight: 500;
+  }
+  .error-main .font-weight-large-600 {
+    font-weight: 600;
+  }
+  .error-main .font-weight-large-700 {
+    font-weight: 700;
+  }
+  .error-main .font-size-large-10px {
+    font-size: 10px;
+  }
+  .error-main .font-size-large-12px {
+    font-size: 12px;
+  }
+  .error-main .font-size-large-13px {
+    font-size: 13px;
+  }
+  .error-main .font-size-large-14px {
+    font-size: 14px;
+  }
+  .error-main .font-size-large-18px {
+    font-size: 18px;
+  }
+  .error-main .font-size-large-24px {
+    font-size: 24px;
+  }
+  .error-main .font-size-large-32px {
+    font-size: 32px;
+  }
+  .error-main .font-size-large-36px {
+    font-size: 36px;
+  }
+  .error-main .font-size-large-48px {
+    font-size: 48px;
+  }
+  .error-main .font-size-large-96px {
+    font-size: 96px;
+  }
+  .error-main .font-size-large-288px {
+    font-size: 288px;
+  }
+}
+@media only screen and (min-width: 480px) {
   .error-main p .font-weight-large-100 {
     font-weight: 100;
   }

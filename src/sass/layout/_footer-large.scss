@@ -1,7 +1,9 @@
 footer {
+  @include media-large {
+  }
   & p {
     @include media-large {
-        margin-bottom: 0px;
+      margin-bottom: 0px;
     }
   }
 }

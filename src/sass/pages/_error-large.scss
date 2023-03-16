@@ -1,7 +1,12 @@
 .error-main {
+  @include media-large {
+    
+  }
   & p {
     @include media-large {
-        font-style: italic;
+
     }
+
   }
+
 }
