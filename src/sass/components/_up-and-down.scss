@@ -1,0 +1,31 @@
+.upanddown {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  & h3 {
+    cursor: pointer;
+  }
+  & p {
+    height: 0;
+    overflow: hidden;
+  }
+  
+  & .visible {
+    height: auto;
+    transform: translateY(0%);
+  }
+  
+  & .hidden {
+    transform: translateY(-110%);
+  }
+}
+
+.arrow {
+  transform: rotate(-180deg);
+  transition: transform 0.3s ease-out;
+}
+
+.arrow-rotate {
+  transform: rotate(0deg);
+  transition: transform 0.3s ease-out;
+}

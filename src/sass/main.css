@@ -16,6 +16,8 @@ body {
 }
 
 main {
+  display: flex;
+  flex-direction: column;
   flex: 1;
 }
 
@@ -1045,9 +1047,10 @@ footer img {
   width: 100%;
   background-color: #f6f6f6;
   border-radius: 5px;
-  padding: 25px 10px 2px 10px;
-  line-height: 1.2rem;
+  padding: 30px 20px 20px 20px;
+  line-height: 2rem;
 }
+
 @media only screen and (min-width: 480px) {
   .card-grey-long {
     min-height: 200px;
@@ -1151,6 +1154,7 @@ footer img {
   margin: 0 0 10px 10px;
 }
 .card img {
+  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
@@ -1216,6 +1220,36 @@ footer img {
   .card .font-size-large-288px {
     font-size: 288px;
   }
+}
+
+.upanddown {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.upanddown h3 {
+  cursor: pointer;
+}
+.upanddown p {
+  height: 0;
+  overflow: hidden;
+}
+.upanddown .visible {
+  height: auto;
+  transform: translateY(0%);
+}
+.upanddown .hidden {
+  transform: translateY(-110%);
+}
+
+.arrow {
+  transform: rotate(-180deg);
+  transition: transform 0.3s ease-out;
+}
+
+.arrow-rotate {
+  transform: rotate(0deg);
+  transition: transform 0.3s ease-out;
 }
 
 #locations {
@@ -1450,6 +1484,9 @@ footer img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.description-equipments h3 {
+  margin: 0;
 }
 
 .host-rating-location {
@@ -1969,74 +2006,19 @@ h1 {
 }
 
 .a-propos-main {
-  display: flex;
+  display: inline-block;
+  flex-wrap: wrap;
   flex-direction: column;
-  margin: 0 auto;
-}
-@media only screen and (min-width: 480px) {
-  .a-propos-main {
-    width: 85%;
-  }
-  .a-propos-main .font-weight-large-100 {
-    font-weight: 100;
-  }
-  .a-propos-main .font-weight-large-200 {
-    font-weight: 200;
-  }
-  .a-propos-main .font-weight-large-300 {
-    font-weight: 300;
-  }
-  .a-propos-main .font-weight-large-400 {
-    font-weight: 400;
-  }
-  .a-propos-main .font-weight-large-500 {
-    font-weight: 500;
-  }
-  .a-propos-main .font-weight-large-600 {
-    font-weight: 600;
-  }
-  .a-propos-main .font-weight-large-700 {
-    font-weight: 700;
-  }
-  .a-propos-main .font-size-large-10px {
-    font-size: 10px;
-  }
-  .a-propos-main .font-size-large-12px {
-    font-size: 12px;
-  }
-  .a-propos-main .font-size-large-13px {
-    font-size: 13px;
-  }
-  .a-propos-main .font-size-large-14px {
-    font-size: 14px;
-  }
-  .a-propos-main .font-size-large-18px {
-    font-size: 18px;
-  }
-  .a-propos-main .font-size-large-24px {
-    font-size: 24px;
-  }
-  .a-propos-main .font-size-large-32px {
-    font-size: 32px;
-  }
-  .a-propos-main .font-size-large-36px {
-    font-size: 36px;
-  }
-  .a-propos-main .font-size-large-48px {
-    font-size: 48px;
-  }
-  .a-propos-main .font-size-large-96px {
-    font-size: 96px;
-  }
-  .a-propos-main .font-size-large-288px {
-    font-size: 288px;
-  }
+  flex-shrink: 0;
+  margin: 20px auto;
+  flex: 0;
 }
 .a-propos-main h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  margin: 0;
 }
 
 @media only screen and (min-width: 480px) {

@@ -10,11 +10,9 @@ function Equipments({ oneLocation }) {
   ));
 
   return (
-    <div className="card-grey card-grey-long equipments-location">
-      <p className="font-weight-small-400 font-size-small-12px font-size-large-18px font-color-primary">
-        {equipments}
-      </p>
-    </div>
+    <>
+      {equipments}
+    </>
   );
 }
 

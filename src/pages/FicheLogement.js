@@ -1,8 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Layout from "../Components/Layout";
-import Header from "../Components/Header";
-import Main from "../Components/Main";
-import Footer from "../Components/Footer";
 import Fiche from "../Components/Fiche";
 import Carousel from "../Components/Carousel";
 
@@ -38,14 +34,8 @@ const FicheLogement = () => {
   }
   return (
     <React.Fragment>
-      <Layout>
-        <Header />
-        <Main>
-          <Carousel oneLocation={oneLocation}/>
-          <Fiche oneLocation={oneLocation}></Fiche>
-        </Main>
-      </Layout>
-      <Footer />
+      <Carousel oneLocation={oneLocation} />
+      <Fiche oneLocation={oneLocation}></Fiche>
     </React.Fragment>
   );
 };

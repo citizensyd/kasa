@@ -1,12 +1,9 @@
 import React, { useState, useEffect } from "react";
-import Layout from "../Components/Layout";
-import Header from "../Components/Header";
-import Main from "../Components/Main";
 import Hook from "../Components/Hook";
 import Locations from "../Components/Locations";
-import Footer from "../Components/Footer";
 
 const Home = () => {
+
   // Déclare une variable d'état appelée "theLocations" avec la valeur initiale vide
   const [theLocations, setLocations] = useState([]);
 
@@ -19,9 +16,6 @@ const Home = () => {
       // Transforme les données de la réponse HTTP en objet JavaScript
       const data = await res.json();
 
-      // Affiche les données dans la console du navigateur
-      console.log(data);
-
       // Met à jour la variable d'état "theLocations" avec les données récupérées depuis le serveur
       setLocations(data);
     }
@@ -33,14 +27,8 @@ const Home = () => {
 
   return (
     <React.Fragment>
-      <Layout>
-        <Header />
-        <Main>
-          <Hook />
-          <Locations theLocations={theLocations}></Locations>
-        </Main>
-      </Layout>
-      <Footer />
+      <Hook />
+      <Locations theLocations={theLocations}></Locations>
     </React.Fragment>
   );
 };

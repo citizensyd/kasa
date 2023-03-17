@@ -1,14 +1,15 @@
 .a-propos-main {
+  display: inline-block;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin: 20px auto;
+  flex: 0;
+  & h3 {
     display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    @include media-large {
-        width: 85%;
-    }    
-    & h3 {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px;
-    }
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+  }
 }

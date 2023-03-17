@@ -1,11 +1,20 @@
 import React from "react";
 import Rating from "./Rating";
 import HostLocation from "./HostLocation";
-import Fleche from "../images/fleche.svg";
 import Equipments from "./Equipments";
 import TagsLocation from "./TagsLocation";
+import UpAndDown from "./UpAndDown";
 
 function Fiche({ oneLocation }) {
+
+  const titre1 = "Description";
+  const paragraph1 = oneLocation.description;
+
+  const titre2 = "Equipements";
+
+
+  
+
   return (
     <section className="location-sheet">
       <div className="header-sheet">
@@ -28,24 +37,8 @@ function Fiche({ oneLocation }) {
         </div>
       </div>
       <div className="description-equipments">
-        <div className="description">
-          <h3 className="button button-title font-weight-small-500 font-size-13px font-size-large-18px font-color-principal">
-            Description
-            <img src={Fleche} alt="flèche" />
-          </h3>
-          <div className="card-grey card-grey-long description-location">
-            <p className="font-weight-small-400 font-size-small-12px font-size-large-18px font-color-primary">
-              {oneLocation.description}
-            </p>
-          </div>
-        </div>
-        <div className="equipments">
-          <h3 className="button button-title font-weight-small-500 font-size-13px font-size-large-18px font-color-principal">
-            Equipements
-            <img src={Fleche} alt="flèche" />
-          </h3>
-          <Equipments oneLocation={oneLocation} />
-        </div>
+      <UpAndDown className="description" title={titre1} paragraph={paragraph1} />    
+      <UpAndDown className="equipments" title={titre2} paragraph={<Equipments oneLocation={oneLocation}/>} />
       </div>
     </section>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Error() {
   return (
@@ -7,12 +8,12 @@ function Error() {
       <p className="font-weight-small-500 font-size-small-18px font-size-large-36px font-color-primary">
         Oups! La page que vous demandez n'existe pas
       </p>
-      <a
+      <Link
         className="font-weight-small-500 font-size-small-14px font-size-large-18px font-color-primary highlight-link"
-        href="html\home.html"
+        to="html\home.html"
       >
         Retourner sur la page d'accueil
-      </a>
+      </Link>
     </section>
   );
 }

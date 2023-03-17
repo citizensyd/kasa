@@ -1,0 +1,7 @@
+.card-grey {
+    &-long {
+      @include media-large {
+        min-height: 200px;
+      }
+    }
+  }

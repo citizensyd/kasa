@@ -4,7 +4,6 @@ import Fleche from "../images/arrow_forward_ios-24px 1.svg";
 function Carousel({ oneLocation }) {
   const [counter, setCounter] = useState(0);
   const [images, setImages] = useState([]);
-  console.log(oneLocation);
 
   useEffect(() => {
     async function fetchImages() {
