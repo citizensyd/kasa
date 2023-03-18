@@ -1,4 +1,7 @@
 .card-grey {
+  @include media-large{
+    line-height: 2rem;
+  }
     &-long {
       @include media-large {
         min-height: 200px;

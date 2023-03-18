@@ -1,0 +1,12 @@
+.upanddown {
+  & h3 {
+    @include media-large {
+    font-size: 24px;
+    }
+  }
+  & p {
+    @include media-large {
+        font-size: 24px;
+    }
+  }
+}

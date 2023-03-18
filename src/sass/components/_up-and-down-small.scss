@@ -4,10 +4,12 @@
   overflow: hidden;
   & h3 {
     cursor: pointer;
+    font-size: 13px;
   }
   & p {
     height: 0;
     overflow: hidden;
+    font-size: 12px;
   }
   
   & .visible {

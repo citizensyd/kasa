@@ -14,6 +14,7 @@
 
 .localisation-location {
   margin: 0.5em 0;
+  font-size: 14px;
 }
 
 .tags-location {
@@ -53,9 +54,13 @@
   & p {
     text-align: end;
     padding-right: 10px;
+    font-size: 12px;
   }
 }
 
-h1 {
-  line-height: 1.5rem;
+.title-location{
+  & h1 {
+    line-height: 1.5rem;
+    font-size: 18px;
+  }
 }

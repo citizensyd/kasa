@@ -5,7 +5,7 @@ function HostLocation({ oneLocation }) {
 
   return (
     <div className="host-location">
-      <div className="host-name font-weight-small-500 font-size-small-12px font-size-large-18px font-color-primary">
+      <div className="host-name font-color-primary">
         {host.name.split(" ").map((namePart) => (
           <p key={namePart}>{namePart}</p>
         ))}

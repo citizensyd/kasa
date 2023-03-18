@@ -10,7 +10,7 @@ function UpAndDown({title, paragraph, className}) {
 
   return (
     <div className={`upanddown ${className}`}>
-      <h3 className="button button-title font-weight-small-500 font-size-small-13px font-size-large-24px font-color-principal">
+      <h3 className="button button-title font-color-principal">
         {title}
         <img
           className={`${isVisible ? "arrow-rotate" : "arrow"}`}
@@ -20,7 +20,7 @@ function UpAndDown({title, paragraph, className}) {
         />
       </h3>
       <p
-        className={`card-grey font-weight-small-400 font-size-small-12px font-size-large-24px font-color-primary ${
+        className={`card-grey font-color-primary ${
           isVisible ? "visible" : "hidden"
         }`}
       >

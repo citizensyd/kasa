@@ -10,6 +10,7 @@
   & p {
     @include media-large {
       justify-content: center;
+      font-size: 48px;
     }
   }
 }

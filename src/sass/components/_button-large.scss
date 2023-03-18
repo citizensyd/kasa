@@ -1,0 +1,12 @@
+.button {
+  &-title {
+    @include media-large {
+      font-size: 12px;
+    }
+  }
+  &-tags {
+    @include media-large {
+      font-size: 14px;
+    }
+  }
+}

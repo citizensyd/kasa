@@ -20,12 +20,12 @@ function Fiche({ oneLocation }) {
       <div className="header-sheet">
         <div className="la-location">
           <div className="title-location">
-            <h1 className="font-weight-small-500 font-size-18px font-size-large-36px font-color-primary">
+            <h1 className="font-color-primary">
               {oneLocation.title}
             </h1>
           </div>
           <div className="localisation-location">
-            <p className="font-weight-small-500 font-size-14px font-size-large-18px font-color-primary">
+            <p className="font-color-primary">
               {oneLocation.location}
             </p>
           </div>

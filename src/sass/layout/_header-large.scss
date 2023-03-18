@@ -1,5 +1,10 @@
 header {
-  @include media-large{
+  nav {
+    li {
+      @include media-large {
+        font-size: 24px;
+      }
+    }
   }
 }
 

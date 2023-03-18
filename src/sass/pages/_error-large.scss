@@ -1,12 +1,19 @@
 .error-main {
   @include media-large {
-    
+  }
+  & h1 {
+    @include media-large {
+      font-size: 288px;
+    }
   }
   & p {
     @include media-large {
-
+      font-size: 36px;
     }
-
   }
-
+  & a {
+    @include media-large {
+      font-size: 18px;
+    }
+  }
 }

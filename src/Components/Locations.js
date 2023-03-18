@@ -13,7 +13,7 @@ const Locations = ({ theLocations }) => {
       data-id={location.id}
     >
       <img src={location.cover} alt={location.title} />
-      <p className="font-weight-small-500 font-size-small-18px font-color-principal">
+      <p className="font-color-principal">
         {location.title}
       </p>
     </Link>
