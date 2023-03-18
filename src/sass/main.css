@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* @import "./base/normalize"; */
 .font-size-small-10px {
   font-size: 10px;
@@ -537,6 +538,7 @@ footer img {
   flex-direction: column;
   margin: auto;
   justify-content: space-between;
+  /* styles pour l'en-tête */
 }
 
 .la-location {
@@ -544,25 +546,27 @@ footer img {
   flex-direction: column;
   justify-content: space-between;
   margin-top: 10px;
+  /* styles pour la partie de l'en-tête contenant le titre, la localisation et les tags */
+}
+
+.title-location {
+  /* styles pour le titre de la location */
+}
+.title-location h1 {
+  line-height: 1.5rem;
+  font-size: 18px;
 }
 
 .localisation-location {
+  /* styles pour la localisation de la location */
   margin: 0.5em 0;
   font-size: 14px;
 }
 
 .tags-location {
+  /* styles pour les tags de la location */
   display: flex;
   flex-wrap: wrap;
-}
-
-.description-equipments {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.description-equipments h3 {
-  margin: 0;
 }
 
 .host-rating-location {
@@ -570,9 +574,11 @@ footer img {
   justify-content: space-between;
   align-items: center;
   margin-top: 0.5em;
+  /* styles pour la partie de l'en-tête contenant la note et le nom de l'hôte */
 }
 
 .rating-location img {
+  /* styles pour l'image de la note */
   width: 15px;
   margin-right: 0.4em;
 }
@@ -581,6 +587,7 @@ footer img {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  /* styles pour la partie contenant le nom de l'hôte */
 }
 .host-location img {
   border-radius: 50%;
@@ -592,9 +599,14 @@ footer img {
   font-size: 12px;
 }
 
-.title-location h1 {
-  line-height: 1.5rem;
-  font-size: 18px;
+.description-equipments {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* styles pour la section contenant la description et les équipements */
+}
+.description-equipments h3 {
+  margin: 0;
 }
 
 @media only screen and (min-width: 480px) {
@@ -611,27 +623,16 @@ footer img {
 }
 
 @media only screen and (min-width: 480px) {
+  .title-location h1 {
+    font-size: 36px;
+    line-height: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 480px) {
   .localisation-location {
     margin: 0.2em 0 1em 0;
     font-size: 18px;
-  }
-}
-
-@media only screen and (min-width: 480px) {
-  .description-equipments {
-    flex-direction: row;
-  }
-}
-
-@media only screen and (min-width: 480px) {
-  .description {
-    width: 47%;
-  }
-}
-
-@media only screen and (min-width: 480px) {
-  .equipments {
-    width: 47%;
   }
 }
 
@@ -653,15 +654,26 @@ footer img {
 }
 
 @media only screen and (min-width: 480px) {
-  .title-location h1 {
-    font-size: 36px;
-    line-height: 2.5rem;
+  .host-location p {
+    font-size: 18px;
   }
 }
 
 @media only screen and (min-width: 480px) {
-  .host-location p {
-    font-size: 18px;
+  .description-equipments {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .description {
+    width: 47%;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .equipments {
+    width: 47%;
   }
 }
 

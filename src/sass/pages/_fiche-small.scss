@@ -1,8 +1,10 @@
+
 .header-sheet {
   display: flex;
   flex-direction: column;
   margin: auto;
   justify-content: space-between;
+  /* styles pour l'en-tête */
 }
 
 .la-location {
@@ -10,25 +12,27 @@
   flex-direction: column;
   justify-content: space-between;
   margin-top: 10px;
+  /* styles pour la partie de l'en-tête contenant le titre, la localisation et les tags */
+}
+
+.title-location {
+  /* styles pour le titre de la location */
+  & h1 {
+    line-height: 1.5rem;
+    font-size: 18px;
+  }
 }
 
 .localisation-location {
+  /* styles pour la localisation de la location */
   margin: 0.5em 0;
   font-size: 14px;
 }
 
 .tags-location {
+  /* styles pour les tags de la location */
   display: flex;
   flex-wrap: wrap;
-}
-
-.description-equipments {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  & h3 {
-    margin: 0;
-  }
 }
 
 .host-rating-location {
@@ -36,9 +40,11 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 0.5em;
+  /* styles pour la partie de l'en-tête contenant la note et le nom de l'hôte */
 }
 
 .rating-location img {
+  /* styles pour l'image de la note */
   width: 15px;
   margin-right: 0.4em;
 }
@@ -47,6 +53,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  /* styles pour la partie contenant le nom de l'hôte */
   & img {
     border-radius: 50%;
     width: 40px;
@@ -58,9 +65,13 @@
   }
 }
 
-.title-location{
-  & h1 {
-    line-height: 1.5rem;
-    font-size: 18px;
+.description-equipments {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* styles pour la section contenant la description et les équipements */
+  & h3 {
+    margin: 0;
   }
 }
+

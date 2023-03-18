@@ -1,10 +1,13 @@
-import React from "react";
-import Error from "../Components/Error";
+import React from "react"; // Importe la bibliothèque React
+import Error from "../Components/Error"; // Importe le composant Error
 
+// Définit un nouveau composant appelé NotFound
 const NotFound = () => {
   return (
-           <Error />
+    // Retourne le composant Error
+    <Error />
   );
 };
 
-export default NotFound;
+export default NotFound; // Exporte le composant NotFound pour pouvoir l'utiliser ailleurs
+
