@@ -142,25 +142,22 @@ header {
   align-items: center;
 }
 header nav {
-  width: 90%;
-  color: #ff6060;
+  display: flexbox;
 }
 header nav ul {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
   margin: 0;
   list-style: none;
-  width: 100%;
+}
+header nav li {
+  white-space: nowrap;
 }
 header img {
-  display: flex;
-  justify-content: flex-start;
   width: 145px;
 }
 
-.nav-accueil-margin {
-  margin-left: 30px;
+.nav-a-propos-margin {
+  margin-left: 10px;
 }
 
 .case {
@@ -168,120 +165,58 @@ header img {
 }
 
 @media only screen and (min-width: 480px) {
-  header nav ul {
-    display: block;
-  }
-  header nav ul .font-weight-large-100 {
+  header .font-weight-large-100 {
     font-weight: 100;
   }
-  header nav ul .font-weight-large-200 {
+  header .font-weight-large-200 {
     font-weight: 200;
   }
-  header nav ul .font-weight-large-300 {
+  header .font-weight-large-300 {
     font-weight: 300;
   }
-  header nav ul .font-weight-large-400 {
+  header .font-weight-large-400 {
     font-weight: 400;
   }
-  header nav ul .font-weight-large-500 {
+  header .font-weight-large-500 {
     font-weight: 500;
   }
-  header nav ul .font-weight-large-600 {
+  header .font-weight-large-600 {
     font-weight: 600;
   }
-  header nav ul .font-weight-large-700 {
+  header .font-weight-large-700 {
     font-weight: 700;
   }
-  header nav ul .font-size-large-10px {
+  header .font-size-large-10px {
     font-size: 10px;
   }
-  header nav ul .font-size-large-12px {
+  header .font-size-large-12px {
     font-size: 12px;
   }
-  header nav ul .font-size-large-13px {
+  header .font-size-large-13px {
     font-size: 13px;
   }
-  header nav ul .font-size-large-14px {
+  header .font-size-large-14px {
     font-size: 14px;
   }
-  header nav ul .font-size-large-18px {
+  header .font-size-large-18px {
     font-size: 18px;
   }
-  header nav ul .font-size-large-24px {
+  header .font-size-large-24px {
     font-size: 24px;
   }
-  header nav ul .font-size-large-32px {
+  header .font-size-large-32px {
     font-size: 32px;
   }
-  header nav ul .font-size-large-36px {
+  header .font-size-large-36px {
     font-size: 36px;
   }
-  header nav ul .font-size-large-48px {
+  header .font-size-large-48px {
     font-size: 48px;
   }
-  header nav ul .font-size-large-96px {
+  header .font-size-large-96px {
     font-size: 96px;
   }
-  header nav ul .font-size-large-288px {
-    font-size: 288px;
-  }
-}
-@media only screen and (min-width: 480px) {
-  header nav li {
-    float: right;
-  }
-  header nav li .font-weight-large-100 {
-    font-weight: 100;
-  }
-  header nav li .font-weight-large-200 {
-    font-weight: 200;
-  }
-  header nav li .font-weight-large-300 {
-    font-weight: 300;
-  }
-  header nav li .font-weight-large-400 {
-    font-weight: 400;
-  }
-  header nav li .font-weight-large-500 {
-    font-weight: 500;
-  }
-  header nav li .font-weight-large-600 {
-    font-weight: 600;
-  }
-  header nav li .font-weight-large-700 {
-    font-weight: 700;
-  }
-  header nav li .font-size-large-10px {
-    font-size: 10px;
-  }
-  header nav li .font-size-large-12px {
-    font-size: 12px;
-  }
-  header nav li .font-size-large-13px {
-    font-size: 13px;
-  }
-  header nav li .font-size-large-14px {
-    font-size: 14px;
-  }
-  header nav li .font-size-large-18px {
-    font-size: 18px;
-  }
-  header nav li .font-size-large-24px {
-    font-size: 24px;
-  }
-  header nav li .font-size-large-32px {
-    font-size: 32px;
-  }
-  header nav li .font-size-large-36px {
-    font-size: 36px;
-  }
-  header nav li .font-size-large-48px {
-    font-size: 48px;
-  }
-  header nav li .font-size-large-96px {
-    font-size: 96px;
-  }
-  header nav li .font-size-large-288px {
+  header .font-size-large-288px {
     font-size: 288px;
   }
 }

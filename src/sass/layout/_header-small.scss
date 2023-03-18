@@ -4,25 +4,22 @@ header {
   justify-content: space-between;
   align-items: center;
   & nav {
-    width: 90%;
-    color: $primary-color;
+    display: flexbox;
     & ul {
       display: flex;
-      flex-direction: row-reverse;
-      justify-content: space-between;
       margin: 0;
       list-style: none;
-      width: 100%;
+    }
+    li {
+      white-space: nowrap;
     }
   }
   & img {
-    display: flex;
-    justify-content: flex-start;
     width: 145px;
   }
 }
-.nav-accueil-margin {
-  margin-left: 30px;
+.nav-a-propos-margin {
+  margin-left: 10px;
 }
 
 .case {

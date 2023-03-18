@@ -1,15 +1,5 @@
 header {
-  & nav {
-    & ul {
-      @include media-large {
-        display: block;
-      }
-    }
-    & li {
-      @include media-large {
-        float: right;
-      }
-    }
+  @include media-large{
   }
 }
 
