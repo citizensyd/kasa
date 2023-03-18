@@ -11,7 +11,7 @@ const Header = () => {
       <nav>
         <ul>
           <li className="font-color-primary nav-accueil-margin">
-            <Link className="highlight-link case" to="/">
+            <Link className="case" to="/">
               accueil
             </Link>
           </li>

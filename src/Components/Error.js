@@ -9,8 +9,8 @@ function Error() {
         Oups! La page que vous demandez n'existe pas
       </p>
       <Link
-        className="font-color-primary highlight-link"
-        to="html\home.html"
+        className="font-color-primary"
+        to="/"
       >
         Retourner sur la page d'accueil
       </Link>
