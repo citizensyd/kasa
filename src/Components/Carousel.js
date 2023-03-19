@@ -1,49 +1,62 @@
-import React, { useState, useEffect } from "react"; // importation des fonctions useState et useEffect de la bibliothèque React
-import Fleche from "../images/arrow_forward_ios-24px 1.svg"; // importation de l'image de la flèche
+import React, { useState, useEffect } from "react"; // Importation des fonctions React, useState et useEffect
+import Fleche from "../images/arrow_forward_ios-24px 1.svg"; // Importation de l'image de la flèche
 
-function Carousel({ oneLocation }) { // déclaration du composant Carousel qui prend en paramètre l'objet oneLocation
-  const [counter, setCounter] = useState(0); // déclaration de la variable counter initialisée à 0 et de la fonction setCounter qui permettra de modifier cette variable
-  const [images, setImages] = useState([]); // déclaration de la variable images initialisée à un tableau vide et de la fonction setImages qui permettra de modifier cette variable
+function Carousel({ oneLocation }) {
+  // Définition du composant Carousel qui prend oneLocation en paramètre
+  const [counter, setCounter] = useState(0); // Déclaration d'un state counter initialisé à 0, qui indiquera l'index de l'image actuellement affichée
+  const [images, setImages] = useState([]); // Déclaration d'un state images initialisé à un tableau vide, qui contiendra les URL des images à afficher
 
-  useEffect(() => { // effet de bord exécuté lorsque le composant est monté et que oneLocation est modifié
-    async function fetchImages() { // fonction asynchrone qui permet de récupérer les images de oneLocation
+  useEffect(() => {
+    // Utilisation de useEffect pour effectuer une action après le rendu du composant
+    async function fetchImages() {
+      // Déclaration d'une fonction asynchrone pour récupérer les images de oneLocation
       try {
-        setImages(oneLocation.pictures); // modification de la variable images avec les images de oneLocation
+        setImages(oneLocation.pictures); // Mise à jour du state images avec les URL des images de oneLocation
       } catch (error) {
-        console.error(error); // affichage d'une erreur en cas de problème
+        console.error(error); // Affichage de l'erreur dans la console si une erreur survient
       }
     }
 
-    fetchImages(); // appel de la fonction fetchImages
-  }, [oneLocation]); // déclaration de la dépendance oneLocation
+    fetchImages(); // Appel de la fonction pour récupérer les images de oneLocation
+  }, [oneLocation]); // La fonction est appelée à chaque changement de oneLocation
 
-  function handlePrevClick() { // fonction appelée lorsqu'on clique sur le bouton précédent
-    setCounter((prevCounter) => // modification de la variable counter avec une fonction de rappel qui récupère la valeur précédente
-      prevCounter === 0 ? images.length - 1 : prevCounter - 1 // si counter est à 0, on affiche la dernière image du tableau, sinon on affiche l'image précédente
+  function handlePrevClick() {
+    // Fonction appelée lorsqu'on clique sur le bouton "Précédent"
+    setCounter(
+      (
+        prevCounter // Mise à jour du state counter en fonction de la valeur précédente
+      ) => (prevCounter === 0 ? images.length - 1 : prevCounter - 1) // Si counter vaut 0, on affiche la dernière image, sinon on affiche l'image précédente
     );
   }
 
-  function handleNextClick() { // fonction appelée lorsqu'on clique sur le bouton suivant
-    setCounter((prevCounter) => // modification de la variable counter avec une fonction de rappel qui récupère la valeur précédente
-      prevCounter === images.length - 1 ? 0 : prevCounter + 1 // si counter est à la dernière image, on affiche la première, sinon on affiche l'image suivante
+  function handleNextClick() {
+    // Fonction appelée lorsqu'on clique sur le bouton "Suivant"
+    setCounter(
+      (
+        prevCounter // Mise à jour du state counter en fonction de la valeur précédente
+      ) => (prevCounter === images.length - 1 ? 0 : prevCounter + 1) // Si counter vaut la dernière image, on affiche la première image, sinon on affiche l'image suivante
     );
   }
 
   return (
-    <section className="carousel-container"> {/* déclaration de la section qui contiendra le carousel */}
-      <button id="prevBtn" onClick={handlePrevClick}> {/* bouton précédent */}
-        <img src={Fleche} alt="Previous" /> {/* image de la flèche précédent */}
+    <section className="carousel-container">
+      {/* Bouton pour passer à l'image précédente */}
+      <button id="prevBtn" onClick={handlePrevClick}>
+        <img src={Fleche} alt="Previous" />
       </button>
-      <button id="nextBtn" onClick={handleNextClick}> {/* bouton suivant */}
-        <img src={Fleche} alt="Next" /> {/* image de la flèche suivant */}
+      {/* Bouton pour passer à l'image suivante */}
+      <button id="nextBtn" onClick={handleNextClick}>
+        <img src={Fleche} alt="Next" />
       </button>
-      <div className="carousel-slide"> {/* div qui contiendra l'image du carousel */}
-        {images.length > 0 && ( /* si le tableau d'images est non vide */
-          <img key={counter} src={images[counter]} alt="Carousel" /> /* on affiche l'image correspondante au compteur */
+      {/* Conteneur de l'image */}
+      <div className="carousel-slide">
+        {/* Afficher l'image actuelle */}
+        {images.length > 0 && (
+          <img key={counter} src={images[counter]} alt="Carousel" />
         )}
       </div>
     </section>
   );
 }
 
-export default Carousel; // exportation du composant Carousel
+export default Carousel;
