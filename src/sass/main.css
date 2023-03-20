@@ -516,6 +516,7 @@ footer img {
   justify-content: space-around;
   overflow: hidden;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 480px) {
