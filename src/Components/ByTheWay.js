@@ -1,5 +1,5 @@
 import React from "react";
-import UpAndDown from "./UpAndDown"; // Importe le composant UpAndDown
+import UpAndDown from "../UI/UpAndDown"; // Importe le composant UpAndDown
 
 function ByTheWay() {
 

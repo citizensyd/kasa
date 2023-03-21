@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react"; // Importe la bibliothèque React
-import Hook from "../Components/Hook"; // Importe le composant Hook
+import Hook from "../Components/Banner"; // Importe le composant Hook
 import ByTheWay from "../Components/ByTheWay"; // Importe le composant ByTheWay
 
 // Définit un nouveau composant appelé APropos

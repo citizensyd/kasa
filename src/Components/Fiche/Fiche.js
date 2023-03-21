@@ -3,7 +3,7 @@ import Rating from "./Rating";
 import HostLocation from "./HostLocation";
 import Equipments from "./Equipments";
 import TagsLocation from "./TagsLocation";
-import UpAndDown from "./UpAndDown";
+import UpAndDown from "../../UI/UpAndDown";
 
 function Fiche({ oneLocation }) {
 

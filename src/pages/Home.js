@@ -1,7 +1,8 @@
 // Importe les fonctions useState et useEffect de la bibliothèque React, ainsi que deux composants personnalisés
 import React, { useState, useEffect } from "react";
-import Hook from "../Components/Hook";
+import Banner from "../Components/Banner";
 import Locations from "../Components/Locations";
+import { locationsFetcher } from "../Service/api.js";
 
 // Définit le composant Home
 const Home = () => {
@@ -15,11 +16,8 @@ const Home = () => {
     // Définit une fonction asynchrone fetchData pour récupérer les données du serveur
     async function fetchData() {
 
-      // Envoie une requête HTTP GET au serveur pour récupérer les données du fichier "logements.json"
-      const res = await fetch(`/logements.json`);
-
       // Transforme les données de la réponse HTTP en objet JavaScript
-      const data = await res.json();
+      const data = await locationsFetcher();
 
       // Met à jour la variable d'état "theLocations" avec les données récupérées depuis le serveur
       setLocations(data);
@@ -34,7 +32,7 @@ const Home = () => {
   return (
     // Utilise la balise React.Fragment pour retourner plusieurs éléments sans utiliser de balise parente
     <React.Fragment>
-      <Hook />
+      <Banner />
       <Locations theLocations={theLocations}></Locations>
     </React.Fragment>
   );

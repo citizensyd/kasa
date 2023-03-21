@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"; // Importation des fonctions React, useState et useEffect
-import Fleche from "../images/arrow_forward_ios-24px 1.svg"; // Importation de l'image de la flèche
+import Fleche from "../../images/arrow_forward_ios-24px 1.svg"; // Importation de l'image de la flèche
 
 function Carousel({ oneLocation }) {
   // Définition du composant Carousel qui prend oneLocation en paramètre

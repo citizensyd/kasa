@@ -1,6 +1,6 @@
 import React from "react";
-import StarFull from "../images/star-full.svg"; // Importation de l'image d'étoile pleine
-import StarEmpty from "../images/star-empty.svg"; // Importation de l'image d'étoile vide
+import StarFull from "../../images/star-full.svg"; // Importation de l'image d'étoile pleine
+import StarEmpty from "../../images/star-empty.svg"; // Importation de l'image d'étoile vide
 
 function Rating({ oneLocation }) {
   const stars = []; // Tableau qui va contenir les étoiles pleines ou vides

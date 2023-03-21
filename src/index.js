@@ -18,7 +18,7 @@ import APropops from "./pages/APropos";
 import NotFound from "./pages/NotFound";
 
 // Importer les composants personnalisés
-import Layout from "./Components/Layout";
+import App from "./Components/App";
 import Header from "./Components/Header";
 import Main from "./Components/Main";
 import Footer from "./Components/Footer";
@@ -30,7 +30,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Layout>
+      <App>
         <Header />
         <Main>
           <Routes>
@@ -40,7 +40,7 @@ root.render(
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Main>
-      </Layout>
+      </App>
       <Footer />
     </BrowserRouter>
   </React.StrictMode>
