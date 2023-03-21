@@ -36,7 +36,7 @@ root.render(
         <Main>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/fiche-logement" element={<FicheLogement />} />
+            <Route path="/fiche-logement/:id" element={<FicheLogement />} />
             <Route path="/a-propos" element={<APropops />} />
             <Route path="*" element={<NotFound />} />
           </Routes>

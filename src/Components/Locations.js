@@ -9,11 +9,8 @@ const Locations = ({ theLocations }) => {
   // Chaque composant "Link" correspond à un logement, et est construit à partir des informations contenues dans l'objet "location"
   const cards = theLocations.map((location) => (
     <Link
-      to={{
-        /* Spécifie le chemin de destination du lien, ainsi que les paramètres de requête pour l'ID du logement */
-        pathname: "/fiche-logement",
-        search: `?id=${location.id}`,
-      }}
+      /* Spécifie le chemin de destination du lien, ainsi que les paramètres de requête pour l'ID du logement */
+      to={`/fiche-logement/${location.id}`}
       className="card"
       key={location.id}
     >
