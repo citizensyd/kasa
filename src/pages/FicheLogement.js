@@ -18,7 +18,6 @@ const FicheLogement = () => {
   useEffect(() => {
     async function fetchLocation() {
       try {
-        console.log("cette fonction fetchLocation est appelée");
         // Récupération de l'identifiant de la location depuis l'URL
         const res = await fetch(`/logements.json`); // Envoi d'une requête HTTP GET pour récupérer les données du fichier "logements.json" depuis le serveur
         const locations = await res.json(); // Transformation des données de la réponse HTTP en objet JavaScript
