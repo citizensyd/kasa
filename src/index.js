@@ -3,7 +3,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 // Importer les fichiers CSS pour l'application
-import "./index.css";
 import "./sass/main.css";
 
 // Importer le module reportWebVitals pour mesurer les performances de l'application
