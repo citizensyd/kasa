@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 // Définit une fonction fléchée (ES6) nommée Locations qui prend un paramètre "theLocations"
 // "theLocations" est un tableau d'objets qui contient les informations sur les différents logements
 const Locations = ({ theLocations }) => {
-
   // Crée une variable "cards" qui est un tableau de composants "Link"
   // Chaque composant "Link" correspond à un logement, et est construit à partir des informations contenues dans l'objet "location"
   const cards = theLocations.map((location) => (
@@ -17,12 +16,9 @@ const Locations = ({ theLocations }) => {
       }}
       className="card"
       key={location.id}
-      data-id={location.id}
     >
       <img src={location.cover} alt={location.title} />
-      <p className="font-color-principal">
-        {location.title}
-      </p>
+      <p className="font-color-principal">{location.title}</p>
     </Link>
   ));
 
@@ -33,4 +29,3 @@ const Locations = ({ theLocations }) => {
 
 // Exporte la fonction Locations pour qu'elle puisse être utilisée dans d'autres fichiers
 export default Locations;
-
