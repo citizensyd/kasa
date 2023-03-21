@@ -1,5 +1,5 @@
 // Importation des modules React, useState et useEffect depuis la bibliothèque React
-import React, { useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
 // Importation des composants Fiche et Carousel depuis le dossier Components
@@ -8,7 +8,7 @@ import Carousel from "../Components/Carousel";
 
 // Définition du composant FicheLogement
 const FicheLogement = () => {
-
+  // Récupération de l'identifiant depuis l'url
   const { id } = useParams();
 
   // Déclaration d'une variable d'état appelée "oneLocation" avec la valeur initiale vide
@@ -18,12 +18,12 @@ const FicheLogement = () => {
   useEffect(() => {
     async function fetchLocation() {
       try {
-  // Récupération de l'identifiant de la location depuis l'URL
+        console.log("cette fonction fetchLocation est appelée");
+        // Récupération de l'identifiant de la location depuis l'URL
         const res = await fetch(`/logements.json`); // Envoi d'une requête HTTP GET pour récupérer les données du fichier "logements.json" depuis le serveur
         const locations = await res.json(); // Transformation des données de la réponse HTTP en objet JavaScript
         const oneLocation = locations.filter(
-          (location) => location.id === id
-        )[0]; // Filtrage des données pour ne conserver que celles correspondant à l'identifiant de la location recherchée
+          (location) => location.id === id )[0]; // Filtrage des données pour ne conserver que celles correspondant à l'identifiant de la location recherchée
         setLocation(oneLocation); // Mise à jour de la variable d'état "oneLocation" avec les données de la location récupérées depuis le serveur
       } catch (error) {
         alert(
@@ -32,7 +32,7 @@ const FicheLogement = () => {
       }
     }
     fetchLocation();
-  }, []); // Appel de la fonction fetchLocation une seule fois, après le premier rendu du composant, en passant un tableau vide comme deuxième argument, pour éviter qu'elle soit appelée à chaque rendu
+  },[id]); // Appel de la fonction fetchLocation une seule fois, après le premier rendu du composant, en passant un tableau vide comme deuxième argument, pour éviter qu'elle soit appelée à chaque rendu
 
   // Affichage d'un message de chargement si les données de la location n'ont pas encore été récupérées
   if (oneLocation.length === 0) {
@@ -50,4 +50,3 @@ const FicheLogement = () => {
 
 // Exportation du composant FicheLogement
 export default FicheLogement;
-
