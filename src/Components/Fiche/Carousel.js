@@ -38,14 +38,22 @@ function Carousel({ oneLocation }) {
     );
   }
 
+  const [isNotVisible, setIsNotVisible] = useState(false);
+
+  useEffect(() => {
+    if (oneLocation.pictures.length < 2) {
+      setIsNotVisible(true);
+    }
+  }, [oneLocation.pictures]);
+
   return (
     <section className="carousel-container">
       {/* Bouton pour passer à l'image précédente */}
-      <button id="prevBtn" onClick={handlePrevClick}>
+      <button className={`${isNotVisible ? "btnNone" : ""}`} id="prevBtn" onClick={handlePrevClick}>
         <img src={Fleche} alt="Previous" />
       </button>
       {/* Bouton pour passer à l'image suivante */}
-      <button id="nextBtn" onClick={handleNextClick}>
+      <button className={`${isNotVisible ? "btnNone" : ""}`} id="nextBtn" onClick={handleNextClick}>
         <img src={Fleche} alt="Next" />
       </button>
       {/* Conteneur de l'image */}

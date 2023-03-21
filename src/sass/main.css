@@ -549,6 +549,10 @@ button {
   width: 10px;
 }
 
+.btnNone {
+  display: none;
+}
+
 @media only screen and (min-width: 480px) {
   .carousel-container {
     height: 415px;
