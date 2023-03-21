@@ -403,9 +403,9 @@ footer img {
 .card {
   display: flex;
   position: relative;
-  margin: 20px 0 0 0;
   justify-content: flex-start;
   align-content: space-around;
+  margin-bottom: 20px;
   cursor: pointer;
   width: 100%;
   background-image: linear-gradient(to bottom, #ff6060, #803131);
@@ -414,6 +414,7 @@ footer img {
   transition: transform 0.3s ease-in-out;
   transition: rotate 0.3s ease-in-out;
   overflow: hidden;
+  height: 255px;
 }
 .card p {
   position: absolute;
@@ -462,8 +463,8 @@ footer img {
 
 @media only screen and (min-width: 480px) {
   .card {
-    height: 340px;
     width: 30%;
+    height: 340px;
   }
 }
 
@@ -516,7 +517,6 @@ footer img {
   justify-content: space-around;
   overflow: hidden;
   margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 480px) {

@@ -1,6 +1,6 @@
 .card {
   @include media-large {
-    height: 340px;
     width: 30%;
+    height: 340px;
   }
 }

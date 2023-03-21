@@ -1,9 +1,9 @@
 .card {
   display: flex;
   position: relative;
-  margin: 20px 0 0 0;
   justify-content: flex-start;
   align-content: space-around;
+  margin-bottom: 20px;
   cursor: pointer;
   width: 100%;
   background-image: $background-gradient;
@@ -12,6 +12,7 @@
   transition: transform 0.3s ease-in-out;
   transition: rotate 0.3s ease-in-out;
   overflow: hidden;
+  height: 255px;
   & p {
     position: absolute;
     align-self: flex-end;
