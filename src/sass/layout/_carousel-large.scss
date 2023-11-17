@@ -25,4 +25,16 @@
       }
     }
   }
+
+  .displayCounter {
+    @include media-large{
+      display: block;
+    }
+  }
+
+  #unScreenCounter {
+    @include media-large{
+      display: none;
+    }
+  }
   

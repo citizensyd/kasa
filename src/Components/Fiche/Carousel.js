@@ -20,6 +20,7 @@ function Carousel({ oneLocation }) {
     fetchImages(); // Appel de la fonction pour récupérer les images de oneLocation
   }, [oneLocation]); // La fonction est appelée à chaque changement de oneLocation
 
+  console.log(images.length);
   function handlePrevClick() {
     // Fonction appelée lorsqu'on clique sur le bouton "Précédent"
     setCounter(
@@ -56,6 +57,7 @@ function Carousel({ oneLocation }) {
       <button className={`${isNotVisible ? "btnNone" : ""}`} id="nextBtn" onClick={handleNextClick}>
         <img src={Fleche} alt="Next" />
       </button>
+      <div className="counterAspect displayCounter" id={`${isNotVisible ? "unScreenCounter" : ""}`} >{counter + 1}/{images.length}</div>
       {/* Conteneur de l'image */}
       <div className="carousel-slide">
         {/* Afficher l'image actuelle */}
